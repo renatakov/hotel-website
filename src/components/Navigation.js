@@ -28,7 +28,6 @@ function Navigation() {
           <Navbar.Brand>
             <img src={logo} alt="Good" width="70px"/>
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse>
             <Nav>
               <Nav.Link>
@@ -43,7 +42,7 @@ function Navigation() {
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
-          
+
         </Container>
       </Navbar>
       </Styles>

@@ -8,6 +8,19 @@
   background-repeat: no-repeat;
 }
 
+.overlay{
+  width: 98.4%;
+  height: 316px;
+  background-color: black;
+  opacity: 0.7;
+  position: absolute;
+  z-index: -1.1;
+  top: 87.9px;
+  bottom: 0;
+  left: 8.5px;
+  right: 0;
+}
+
 .fortext{
 font-family: "Open Sans";
 font-style: normal;
@@ -24,7 +37,7 @@ color: #fff;
   cursor: pointer;
   overflow: hidden;
   border: 2px solid white;
-  color: rgb(219, 212, 212);
+  color: rgba(255, 254, 254, 0.89);
   padding: 5px;
   font-family: "DIN";
   font-style: bold;
@@ -33,7 +46,7 @@ color: #fff;
 }
 
 .contactus:hover{
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  box-shadow: rgb(255, 255, 255) 0px 54px 55px, rgb(255, 255, 255) 0px -12px 30px, rgb(255, 255, 255) 0px 4px 6px, rgb(255, 255, 255) 0px 12px 13px, rgb(255, 255, 255) 0px -3px 5px;
 }
 
 .readfaq{
@@ -42,7 +55,7 @@ color: #fff;
   cursor: pointer;
   overflow: hidden;
   border: 2px solid white;
-  color: rgb(219, 212, 212);
+  color: rgba(255, 254, 254, 0.89);
   padding: 5px;
   font-family: "DIN";
   font-style: bold;
@@ -51,7 +64,7 @@ color: #fff;
 }
 
 .readfaq:hover{
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  box-shadow: rgb(255, 255, 255) 0px 54px 55px, rgb(255, 255, 255) 0px -12px 30px, rgb(255, 255, 255) 0px 4px 6px, rgb(255, 255, 255) 0px 12px 13px, rgb(255, 255, 255) 0px -3px 5px;
 }
 
 .citata{
@@ -91,6 +104,11 @@ color: #fff;
 .imghome{
   position: absolute;
   top: 900px;
+  left: 20px;
+}
+
+.imghome:hover{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgb(24, 23, 23) 0px -3px 5px;;
 }
 
 .h2o{
@@ -109,6 +127,95 @@ color: #fff;
 
 .tuman{
   position: relative;
-  top: 82px;
+  top: 110px;
   left: 250px;
+}
+
+.tuman:hover{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgb(24, 23, 23) 0px -3px 5px;;
+}
+
+.yoyoyo{
+  position: absolute;
+  top: 1150px;
+  left: 20px;
+}
+
+.yoyoyo:hover{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgb(24, 23, 23) 0px -3px 5px;;
+}
+
+.newdiv{
+  position: absolute;
+  width: 230px;
+  height: 170px;
+  padding: 15px;
+  left: 270px;
+  top: 1150px;
+  background: #E9ECE0;
+  opacity: 0.7;
+}
+
+.newdiv:hover{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgb(24, 23, 23) 0px -3px 5px;;
+}
+
+.newp{
+  position: absolute;
+  left:10px;
+  top: 5px;
+  font-family: "Open Sans";
+  font-style: italic;
+  font-weight: normal;
+  font-size: 15px;
+  color: #333333;
+}
+
+.lastimg{
+  position: absolute;
+  top: 1150px;
+  left: 550px;
+}
+
+.lastimg:hover{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgb(24, 23, 23) 0px -3px 5px;
+}
+
+.h3first{
+  position: absolute;
+  left: 20px;
+  top: 1350px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 60px;
+  color: #5B6460;
+}
+
+.justp{
+  position: absolute;
+  left: 50px;
+  top: 1450px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 30px;
+  color: #000000;
+}
+
+.addressonly{
+  position: absolute;
+  width: 167px;
+  height: 30px;
+  left: 50px;
+  top: 1500px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 30px;
+  text-decoration: none;
+  padding: 5px;
 }
