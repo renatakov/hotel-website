@@ -43,6 +43,7 @@ function Navigation() {
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
+          
         </Container>
       </Navbar>
       </Styles>
