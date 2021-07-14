@@ -2,7 +2,7 @@
   width: 100%;
   height: 700px;
   margin-right: 100px;
-  margin-top: 5px;
+  /* margin-top: 2px; */
   background: url(both-ood-iceland-houses.jpg);
   background-size: 100% 45%;
   background-repeat: no-repeat;
@@ -24,5 +24,4 @@
   font-size: 20px;
   text-align: center;
   color: #fcfcfcdc;
-
 }

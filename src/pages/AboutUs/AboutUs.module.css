@@ -53,3 +53,62 @@ color: #fff;
 .readfaq:hover{
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
+
+.citata{
+  position: absolute;
+  width: 393px;
+  height: 144px;
+  top: 450px;
+  left: 450px;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 24px;
+  font-family: "Open Sans";
+  line-height: 36px;
+  color: #5B6460;
+}
+
+.imgclass{
+  position: absolute;
+  top: 470px;
+  left: 50px;
+}
+
+.text{
+  position: absolute;
+  height: 214px;
+  width: 410px;
+  left: 490px;
+  top: 610px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 30px;
+  color: #525252;
+}
+
+.imghome{
+  position: absolute;
+  top: 900px;
+}
+
+.h2o{
+  position: absolute;
+  width: 537px;
+  height: 112px;
+  left: 300px;
+  top: 780px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 56px;
+  color: #5B6460;
+}
+
+.tuman{
+  position: relative;
+  top: 82px;
+  left: 250px;
+}
