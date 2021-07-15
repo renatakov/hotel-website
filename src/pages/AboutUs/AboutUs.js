@@ -38,6 +38,19 @@ class AboutUs extends Component {
         <a href="tel:+123 456 789 000">+123 456 789 000</a>
         <a href="mailto:info@theglasshuts.com">info@theglasshuts.com</a>
         </address>
+
+        <img src="https://www.europanostra.org/wp-content/uploads/2017/09/2017-09-Twitter-logo.png" alt="joj" className={s.twitter} width="50px" height="50px"/>
+        <img src="https://i.pinimg.com/originals/41/28/2b/41282b58cf85ddaf5d28df96ed91de98.png" alt="facebook" className={s.facebook} />
+        <img src="https://download.logo.wine/logo/Instagram/Instagram-Logo.wine.png" alt="instagram" className={s.instagram} />
+        <form className="firstform">
+    <input type="text" id={s.fname} name="firstname" placeholder="First name"/>
+    <input type="text" id={s.lname} name="lastname" placeholder="Last name"/>
+    <input type="email" id={s.emaill} name="email" placeholder="Email"/>
+    <textarea id={s.subject} name="subject" placeholder="Subject"></textarea>
+    <textarea id={s.message} name="message" placeholder="Message" height="300px"></textarea>
+    <input id={s.send}  type="submit" value="SEND" />
+        </form>
+        <p className={s.ok}>From Denmark with love</p>
       </div>
       </>
   );

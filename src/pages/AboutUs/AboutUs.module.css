@@ -211,11 +211,151 @@ color: #fff;
   height: 30px;
   left: 50px;
   top: 1500px;
-  font-family: Open Sans;
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: 300;
   font-size: 16px;
   line-height: 30px;
   text-decoration: none;
   padding: 5px;
+}
+
+.firstform{
+  color: #525252;
+}
+
+#fname{
+  position: absolute;
+  width: 200px;
+  height: 30px;
+  left: 370px;
+  top: 1460px;
+  background: #FFFFFF;
+  border: 0.7px solid #5B6460;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+#lname{
+  position: absolute;
+  width: 200px;
+  height: 30px;
+  left: 590px;
+  top: 1459.90px;
+  background: #FFFFFF;
+  border: 0.7px solid #5B6460;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+#emaill{
+  position: absolute;
+  width: 420px;
+  height: 30px;
+  left: 370px;
+  top: 1510px;
+  background: #FFFFFF;
+  border: 0.7px solid #5B6460;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+#subject{
+  position: absolute;
+  width: 420px;
+  height: 30px;
+  left: 370px;
+  top: 1560px;
+  background: #FFFFFF;
+  border: 0.7px solid #5B6460;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+#message{
+  position: absolute;
+  width: 420px;
+  height: 80px;
+  left: 370px;
+  top: 1610px;
+  background: #FFFFFF;
+  border: 0.7px solid #5B6460;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+#send{
+  position: absolute;
+  width: 150px;
+  height: 40px;
+  left: 640px;
+  top: 1710px;
+  background: #5B6460;
+  color: white;
+  padding: 5px;
+  align-items: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#send:hover{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgb(24, 23, 23) 0px -3px 5px;
+}
+
+.twitter{
+  position: absolute;
+  left: 230px;
+  top: 1570px;
+  background-color: gray;
+  border-radius: 30px;
+  padding: 1px;
+}
+
+.twitter:hover{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgb(24, 23, 23) 0px -3px 5px;
+}
+
+.facebook{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 150px;
+  top: 1570px;
+  background-color: grey;
+  background-size: 130%;
+  border-radius: 30px;
+  padding: 1px;
+}
+
+.facebook:hover{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgb(24, 23, 23) 0px -3px 5px;
+}
+
+.instagram{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 65px;
+  top: 1570px;
+  background-color: grey;
+  background-size: 100%;
+  border-radius: 30px;
+  padding: 1px;
+}
+
+.instagram:hover{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgb(24, 23, 23) 0px -3px 5px;
+}
+
+.ok{
+  position: absolute;
+  height: 48px;
+  left: 370px;
+  top: 1800px;
+  font-family: "Handlee";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #5B6460;
 }
