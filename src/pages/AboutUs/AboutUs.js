@@ -3,7 +3,8 @@ import s from "./AboutUs.module.css";
 import i from "./road.jpg";
 import a from "./Panorama-Glass-Lodge2.jpg";
 import tuman from "./tuman.jpg";
-import yoyoyo from "./yoyoyo.jpg"
+import yoyoyo from "./yoyoyo.jpg";
+import h from "./hart.png";
 
 class AboutUs extends Component {
   render() {
@@ -50,7 +51,8 @@ class AboutUs extends Component {
     <textarea id={s.message} name="message" placeholder="Message" height="300px"></textarea>
     <input id={s.send}  type="submit" value="SEND" />
         </form>
-        <p className={s.ok}>From Denmark with love</p>
+        <p className={s.ok}>From Denmark, <br /> With love...</p>
+        <img src={h} className={s.h} alt="80" />
       </div>
       </>
   );
