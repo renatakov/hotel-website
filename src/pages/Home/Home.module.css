@@ -1,8 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
 .firstcontainer{
-  width: 100%;
+  width: 110%;
   height: 700px;
-  margin-right: 100px;
-  /* margin-top: 2px; */
   background: url(both-ood-iceland-houses.jpg);
   background-size: 100% 45%;
   background-repeat: no-repeat;
@@ -11,17 +11,90 @@
 .firsth1{
   color: aliceblue;
   text-align: center;
-  font-family: "Open Sans";
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
 }
 
 .firstp{
   position: absolute;
-  left: 33%;
-  font-family: Mulish;
+  left: 40%;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   text-align: center;
   color: #fcfcfcdc;
+}
+
+.booknow{
+  position: absolute;
+  width: 150px;
+  height: 50px;
+  top: 390px;
+  left: 60px;
+  background: #5B6460;
+}
+
+.price {
+  position: absolute;
+  width: 70px;
+  height: 50px;
+  top: 390px;
+  left: 208px;
+  background-color: #E9ECE0;
+  border: none;
+}
+
+em {
+  font-size: 10px;
+}
+
+.h2o2{
+  position: absolute;
+  width: 206px;
+  height: 40px;
+  left: 60px;
+  top: 450px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 40px;
+  color: #5B6460;
+}
+
+.po2p{
+  position: absolute;
+width: 465px;
+height: 244px;
+left: 70px;
+top: 510px;
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 300;
+font-size: 13px;
+line-height: 30px;
+color: #000000;
+}
+
+.secimg{
+  position: absolute;
+  width: 340px;
+  height: 300px;
+  left: 580px;
+  top: 500px;
+}
+
+.po3p{
+  position: absolute;
+width: 693px;
+height: 438px;
+left: 70px;
+top: 700px;
+text-decoration: underline;
+color: gray;
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
 }
