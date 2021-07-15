@@ -365,3 +365,89 @@ color: #fff;
   left: 400px;
   top: 1870px;
 }
+
+footer{
+  position: absolute;
+  width: 1012px;
+  height: 300px;
+  left: 0px;
+  top: 2000px;
+  background: #5B6460;
+}
+
+.footersp{
+  position: absolute;
+  width: 162px;
+  height: 24px;
+  left: 560px;
+  top: 20px;
+  font-family: "DIN";
+  font-style: sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.footersp2{
+  position: absolute;
+  width: 162px;
+  height: 24px;
+  left: 660px;
+  top: 20px;
+  font-family: "DIN";
+  font-style: sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.footersp3{
+  position: absolute;
+  width: 162px;
+  height: 24px;
+  left: 840px;
+  top: 20px;
+  font-family: "DIN";
+  font-style: sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.paypal{
+  position: absolute;
+  left: 650px;
+  top: 80px;
+}
+
+.mastercard{
+  position: absolute;
+  left: 720px;
+  top: 80px;
+}
+
+.visa{
+  position: absolute;
+  left: 780px;
+  top: 80px;
+}
+
+.banktransfer{
+  position: absolute;
+  left: 840px;
+  top: 80px;
+}
+
+.content{
+  position: absolute;
+  left: 70px;
+  top: 230px;
+  color: white;
+
+}
