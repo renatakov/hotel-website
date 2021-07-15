@@ -98,3 +98,60 @@ font-style: normal;
 font-weight: 600;
 font-size: 16px;
 }
+
+.house3{
+  position: absolute;
+  width: 270px;
+  height: 230px;
+  left: 33px;
+  top: 870px;
+}
+
+ .house2{
+  position: absolute;
+  width: 270px;
+  height: 230px;
+  left: 320px;
+  top: 870px;
+}
+
+.house1{
+  position: absolute;
+  width: 270px;
+  height: 230px;
+  left: 605px;
+  top: 870px;
+}
+
+
+.pololo{
+  position: absolute;
+  width: 310px;
+  height: 270px;
+  left: 340px;
+  top: 1200px;
+  font-family: 'Roboto', sans-serif;
+  background-color: #E9ECE0;
+  text-align: center;
+  justify-content: center;
+  font-size: 13px;
+}
+
+.po6p{
+text-decoration: underline;
+color: gray;
+}
+
+.map{
+  position: absolute;
+  width: 310px;
+  height: 270px;
+  left: 33px;
+  top: 1200px;
+}
+
+.section2{
+  position: absolute;
+  left: 130px;
+  top: 0px;
+}
