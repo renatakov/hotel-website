@@ -250,3 +250,71 @@ background: #5B6460;
   font-size: 12px;
   font-style: normal;
 }
+
+.parking{
+  position: absolute;
+  left: 115px;
+  top: 280px;
+}
+
+.car{
+  position: absolute;
+  left: 125px;
+  top: 330px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: #E9ECE0;
+  font-size: 12px;
+  font-style: normal;
+}
+
+.tree{
+  position: absolute;
+  left: 230px;
+  top: 287px;
+}
+
+.forestree{
+  position: absolute;
+  left: 210px;
+  top: 330px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: #E9ECE0;
+  font-size: 12px;
+  font-style: normal;
+}
+
+.heatingf{
+  position: absolute;
+  left: 340px;
+  top: 283px;
+}
+
+.pheating{
+  position: absolute;
+  left: 335px;
+  top: 330px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: #E9ECE0;
+  font-size: 12px;
+  font-style: normal;
+}
+
+.vtwo{
+  position: absolute;
+  left: 460px;
+  top: 283px;
+}
+
+.pvtwo{
+  position: absolute;
+  left: 475px;
+  top: 330px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: #E9ECE0;
+  font-size: 12px;
+  font-style: normal;
+}

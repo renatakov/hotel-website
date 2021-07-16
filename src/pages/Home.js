@@ -5,6 +5,10 @@ import cold from "./Home/Снимок экрана 2021-07-16 085428.png";
 import cook from "./Home/kitchenette.png";
 import coffee from "./Home/coffee.png";
 import cup from "./Home/cupoftea.png";
+import parking from "./Home/parking.png";
+import trees from "./Home/viewstree.png";
+import heatingf from "./Home/heatingf.png";
+import vtwo from "./Home/230v.png";
 
 class Home extends Component {
   render() {
@@ -43,15 +47,15 @@ class Home extends Component {
       <p className={style.pcoffee}>Coffee machine</p>
       <img src={cup} alt="cup" className={style.cup} />
       <p className={style.electrictea}>Electric tea kettle</p>
+      <img src={parking} alt="cars" className={style.parking} />
+      <p className={style.car}>Parking</p>
+      <img src={trees} alt="tree" className={style.tree} />
+      <p className={style.forestree}>Breathtaking views</p>
+      <img src={heatingf} alt="fh" className={style.heatingf} />
+      <p className={style.pheating}>Floor heating</p>
+      <img src={vtwo} alt="230v" className={style.vtwo} />
+      <p className={style.pvtwo}>230V</p>
       {/*<img src={cold} alt="fridge" className={style.fridge} />
-      <p className={style.minif}>Mini Fridge</p>
-      <img src={cold} alt="fridge" className={style.fridge} />
-      <p className={style.minif}>Mini Fridge</p>
-      <img src={cold} alt="fridge" className={style.fridge} />
-      <p className={style.minif}>Mini Fridge</p>
-      <img src={cold} alt="fridge" className={style.fridge} />
-      <p className={style.minif}>Mini Fridge</p>
-      <img src={cold} alt="fridge" className={style.fridge} />
       <p className={style.minif}>Mini Fridge</p>
       <img src={cold} alt="fridge" className={style.fridge} />
       <p className={style.minif}>Mini Fridge</p>
