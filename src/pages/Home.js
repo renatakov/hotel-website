@@ -1,6 +1,10 @@
 import React, { Component } from "react";
 import style from "./Home/Home.module.css";
-import map from "./Home/map.png"
+import map from "./Home/map.png";
+import cold from "./Home/Снимок экрана 2021-07-16 085428.png";
+import cook from "./Home/kitchenette.png";
+import coffee from "./Home/coffee.png";
+import cup from "./Home/cupoftea.png";
 
 class Home extends Component {
   render() {
@@ -28,6 +32,33 @@ class Home extends Component {
         <p className={style.po5p}>Løvtag’s three exclusive and comfortable cabins, Et, Ro and Ly, are designed by architect Sigurd Larsen. They all have an open space with a double bed, a double sofa bed, kitchen, separate toilet and an outdoor shower. On the roof, surrounded by treetops, there is a terrace, which is about nine meters above ground. The cottages are built around tall, old trees that go through the entire cottage from floor to ceiling.</p>
         <p className={style.po6p}>Read More</p>
         </div>
+      </section>
+      <section className={style.facilities}>
+      <h3 className={style.fac}>Facilities</h3>
+      <img src={cold} alt="fridge" className={style.fridge} />
+      <p className={style.minif}>Mini Fridge</p>
+      <img src={cook} alt="cook" className={style.kitchen} />
+      <p className={style.kitchene}>Kitchenette</p>
+       <img src={coffee} alt="kofe" className={style.coffee} />
+      <p className={style.pcoffee}>Coffee machine</p>
+      <img src={cup} alt="cup" className={style.cup} />
+      <p className={style.electrictea}>Electric tea kettle</p>
+      {/*<img src={cold} alt="fridge" className={style.fridge} />
+      <p className={style.minif}>Mini Fridge</p>
+      <img src={cold} alt="fridge" className={style.fridge} />
+      <p className={style.minif}>Mini Fridge</p>
+      <img src={cold} alt="fridge" className={style.fridge} />
+      <p className={style.minif}>Mini Fridge</p>
+      <img src={cold} alt="fridge" className={style.fridge} />
+      <p className={style.minif}>Mini Fridge</p>
+      <img src={cold} alt="fridge" className={style.fridge} />
+      <p className={style.minif}>Mini Fridge</p>
+      <img src={cold} alt="fridge" className={style.fridge} />
+      <p className={style.minif}>Mini Fridge</p>
+      <img src={cold} alt="fridge" className={style.fridge} />
+      <p className={style.minif}>Mini Fridge</p>
+      <img src={cold} alt="fridge" className={style.fridge} />
+      <p className={style.minif}>Mini Fridge</p> */}
       </section>
       </>
     );
