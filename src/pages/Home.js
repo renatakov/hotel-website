@@ -9,6 +9,10 @@ import parking from "./Home/parking.png";
 import trees from "./Home/viewstree.png";
 import heatingf from "./Home/heatingf.png";
 import vtwo from "./Home/230v.png";
+import parking2 from "./Home/parking2.png";
+import shower from "./Home/shower.png";
+import toilet from "./Home/toilets.png";
+import book from "./Home/books.png";
 
 class Home extends Component {
   render() {
@@ -55,14 +59,31 @@ class Home extends Component {
       <p className={style.pheating}>Floor heating</p>
       <img src={vtwo} alt="230v" className={style.vtwo} />
       <p className={style.pvtwo}>230V</p>
-      {/*<img src={cold} alt="fridge" className={style.fridge} />
-      <p className={style.minif}>Mini Fridge</p>
-      <img src={cold} alt="fridge" className={style.fridge} />
-      <p className={style.minif}>Mini Fridge</p>
-      <img src={cold} alt="fridge" className={style.fridge} />
-      <p className={style.minif}>Mini Fridge</p>
-      <img src={cold} alt="fridge" className={style.fridge} />
-      <p className={style.minif}>Mini Fridge</p> */}
+      <img src={parking2} alt="Parking" className={style.parking2} />
+      <p className={style.parksp}>Parking</p>
+     <img src={shower} alt="Shower" className={style.shower} />
+      <p className={style.showersp}>Shower</p>
+       <img src={toilet} alt="Flushing toilets" className={style.toilets} />
+      <p className={style.toiletsp}>Flushing toilets</p>
+      <img src={book} alt="Bedding & towels" className={style.books} />
+      <p className={style.booksp}>Bedding & towels</p>
+      </section>
+      <section className={style.section4}>
+      <img src="https://images.dwell.com/photos-6575684823601102848/6651420396669575168-large/the-cabins-overlook-the-hekla-volcano-one-of-icelands-most-active-volcanoes-it-is-part-of-a-25-mile-long-volcanic-ridge-and-during-the-middle-ages-it-was-referred-to-by-europeans-as-the-gateway-to-hell.jpg" alt="hohoho" className={style.hohoho} />
+      <img src="https://mostuniquehotels.com/uploads/1024xNxunique-panorama-glass-lodge-iceland8.jpg.pagespeed.ic.dMoQ27aRIo.jpg" alt="hohoho" className={style.hoho} />
+      <p className={style.imgp}>More about us</p>
+      </section>
+      <section className={style.sec5}>
+      <h3 className={style.h3first2}>Stay in touch with us</h3>
+        <p className={style.justp2}>Vesterborg, Denmark</p>
+        <address className={style.addressonly2}>
+        <a href="tel:+123 456 789 000">+123 456 789 000</a>
+        <a href="mailto:info@theglasshuts.com">info@theglasshuts.com</a>
+        </address>
+
+        <img src="https://www.europanostra.org/wp-content/uploads/2017/09/2017-09-Twitter-logo.png" alt="joj" className={style.twitter2} width="50px" height="50px"/>
+        <img src="https://i.pinimg.com/originals/41/28/2b/41282b58cf85ddaf5d28df96ed91de98.png" alt="facebook" className={style.facebook2} />
+        <img src="https://download.logo.wine/logo/Instagram/Instagram-Logo.wine.png" alt="instagram" className={style.instagram2} />
       </section>
       </>
     );

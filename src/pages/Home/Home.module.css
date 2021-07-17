@@ -318,3 +318,194 @@ background: #5B6460;
   font-size: 12px;
   font-style: normal;
 }
+
+.parking2{
+  position: absolute;
+  left: 122px;
+  top: 383px;
+}
+
+.parksp{
+  position: absolute;
+  left: 124px;
+  top: 410px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: #E9ECE0;
+  font-size: 12px;
+  font-style: normal;
+}
+
+.shower{
+  position: absolute;
+  left: 230px;
+  top: 373px;
+}
+
+.showersp{
+  position: absolute;
+  left: 230px;
+  top: 415px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: #E9ECE0;
+  font-size: 12px;
+  font-style: normal;
+}
+
+.toilets {
+  position: absolute;
+  left: 350px;
+  top: 370px;
+}
+
+.toiletsp {
+  position: absolute;
+  left: 330px;
+  top: 415px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: #E9ECE0;
+  font-size: 12px;
+  font-style: normal;
+}
+
+.books{
+  position: absolute;
+  left: 460px;
+  top: 380px;
+}
+
+.booksp{
+  position: absolute;
+  left: 450px;
+  top: 415px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: #E9ECE0;
+  font-size: 12px;
+  font-style: normal;
+}
+
+.hohoho {
+  position: absolute;
+  width: 330px;
+  height: 250px;
+  top: 1980px;
+  left: 163px;
+}
+
+.hoho {
+  position: absolute;
+  width: 330px;
+  height: 250px;
+  top: 1980px;
+  left: 450px;
+}
+
+.imgp {
+  position: absolute;
+  left: 405px;
+  top: 2070px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  padding: 20px;
+  font-family: 'Roboto', sans-serif;
+  color: #E9ECE0;
+  font-size: 10px;
+  font-style: normal;
+  background-color: burlywood;
+  border-radius: 100px;
+}
+
+.imgp:hover {
+  background-color: gray;
+  text-decoration: underline;
+  box-shadow: rgb(255 255 255) 0px 54px 55px, rgb(255 255 255) 0px -12px 30px, rgb(255 255 255) 0px 4px 6px, rgb(255 255 255) 0px 12px 13px, rgb(255 255 255) 0px -3px 5px;
+}
+
+.h3first2{
+  position: absolute;
+  left: 20px;
+  top: 2230px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 60px;
+  color: #5B6460;
+}
+
+.justp2{
+  position: absolute;
+  left: 50px;
+  top: 2340px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 30px;
+  color: #000000;
+}
+
+.addressonly2{
+  position: absolute;
+  width: 167px;
+  height: 30px;
+  left: 50px;
+  top: 2400px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 30px;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.twitter2{
+  position: absolute;
+  left: 200px;
+  top: 2490px;
+  background-color: gray;
+  border-radius: 30px;
+  padding: 1px;
+}
+
+.twitter2:hover{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgb(24, 23, 23) 0px -3px 5px;
+}
+
+.facebook2{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 120px;
+  top: 2490px;
+  background-color: grey;
+  background-size: 130%;
+  border-radius: 30px;
+  padding: 1px;
+}
+
+.facebook2:hover{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgb(24, 23, 23) 0px -3px 5px;
+}
+
+.instagram2{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 35px;
+  top: 2490px;
+  background-color: grey;
+  background-size: 100%;
+  border-radius: 30px;
+  padding: 1px;
+}
+
+.instagram2:hover{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgb(24, 23, 23) 0px -3px 5px;
+}
+
