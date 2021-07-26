@@ -84,7 +84,21 @@ class Home extends Component {
         <img src="https://www.europanostra.org/wp-content/uploads/2017/09/2017-09-Twitter-logo.png" alt="joj" className={style.twitter2} width="50px" height="50px"/>
         <img src="https://i.pinimg.com/originals/41/28/2b/41282b58cf85ddaf5d28df96ed91de98.png" alt="facebook" className={style.facebook2} />
         <img src="https://download.logo.wine/logo/Instagram/Instagram-Logo.wine.png" alt="instagram" className={style.instagram2} />
+
+        <img src="https://www.location-francophone.com/wp-content/uploads/2018/05/Le-lieu-id%C3%A9al-pour-observer-la-nature-%C2%A9-Panorama-Glass-Lodge.jpg" alt="ioioio" className={style.ioioio} width="214px" height="80px"/>
+        <button className={style.booknow2}>BOOK NOW</button>
+        <button className={style.price1}><em>from</em> <strong>€3.200</strong> <em>per night</em></button>
       </section>
+      <footer>
+        <p className={style.footersp1}>TERMS AND CONDITIONS</p>
+        <p className={style.footersp3}>CENCELLATION POLICY</p>
+        <p className={style.footersp4}>PRIVACY POLICY</p>
+        <img src="https://image.flaticon.com/icons/png/512/38/38971.png" className={style.paypal1} alt="Paypal" width="50px" height="50px"/>
+        <img src="https://w7.pngwing.com/pngs/948/539/png-transparent-mastercard-icon-credit-card-payment-card-mastercard-logo-text-label-logo-thumbnail.png" className={style.mastercard1} alt="Mastercard" width="50px" height="50px"/>
+        <img src="https://cdn.iconscout.com/icon/free/png-256/visa-credit-debit-bank-transaction-card-32265.png" className={style.visa1} alt="visa" width="50px" height="50px"/>
+        <img src="https://shop.sembenini.it/img/cms/bank-transfer-logo-on-black.png" className={style.banktransfer1} alt="v" width="50px" height="50px"/>
+        <p className={style.content1}>© 2021 The Glass Huts</p>
+      </footer>
       </>
     );
   }

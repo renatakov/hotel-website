@@ -509,3 +509,112 @@ background: #5B6460;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgb(24, 23, 23) 0px -3px 5px;
 }
 
+.ioioio{
+  position: absolute;
+left: 576px;
+top: 2350px;
+}
+
+.booknow2 {
+  position: absolute;
+  width: 150px;
+  height: 50px;
+  top: 2430px;
+  left: 576px;
+  background: #5B6460;
+}
+
+.price1 {
+  position: absolute;
+  width: 70px;
+  height: 50px;
+  top: 2430px;
+  left: 720px;
+  background-color: #E9ECE0;
+  border: none;
+}
+
+footer{
+  position: absolute;
+  width: 1012px;
+  height: 300px;
+  left: 0px;
+  top: 2600px;
+  background: #5B6460;
+}
+
+.footersp1 {
+  position: absolute;
+  width: 162px;
+  height: 24px;
+  left: 470px;
+  top: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-style: sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.footersp3 {
+  position: absolute;
+  width: 162px;
+  height: 24px;
+  left: 660px;
+  top: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-style: sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.footersp4 {
+  position: absolute;
+  width: 162px;
+  height: 24px;
+  left: 840px;
+  top: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-style: sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.paypal1 {
+  position: absolute;
+  left: 650px;
+  top: 80px;
+}
+
+.mastercard1 {
+  position: absolute;
+  left: 720px;
+  top: 80px;
+}
+
+.visa1 {
+  position: absolute;
+  left: 780px;
+  top: 80px;
+}
+
+.banktransfer1 {
+  position: absolute;
+  left: 840px;
+  top: 80px;
+}
+
+.content1 {
+  position: absolute;
+  left: 70px;
+  top: 230px;
+  color: white;
+}
