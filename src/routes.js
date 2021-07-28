@@ -15,4 +15,11 @@ export default [
       return import("./pages/AboutUs/AboutUs");
     }),
   },
+  {
+    path: "/thehut",
+    exact: true,
+    component: lazy(() => {
+      return import("./pages/TheHut/TheHut");
+    }),
+  },
 ]
