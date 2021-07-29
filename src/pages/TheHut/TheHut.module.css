@@ -1,17 +1,16 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
 
-.imgthehut {
-  width: 100%;
-  height: 700px;
-  margin-right: 100px;
-  margin-top: 5px;
-  background-size: 100% 5%;
+/* .imgthehut {
+  width: 1000px;
+  height: 316px;
+  margin-right: 50px;
+  margin-top: 3px;
   background-repeat: no-repeat;
 } */
 
-/* .overlay12 {
-  width: 98.4%;
+  .overlay12 {
+  width: 1000px;
   height: 316px;
   background-color: black;
   opacity: 0.7;
@@ -21,14 +20,23 @@
   bottom: 0;
   left: 8.5px;
   right: 0;
-} */
+}
 
-/* .thehuth1 {
-font-family: 'Roboto', sans-serif;
-font-style: normal;
-font-weight: 300;
-font-size: 50px;
-line-height: 72px;
-margin-left: 400px;
-color: #fff;
-} */
+  .thehuth1 {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 50px;
+  line-height: 72px;
+  margin-left: 400px;
+  color: rgb(7, 7, 7);
+}
+
+.thehut1 {
+  width: 1000px;
+  height: 316px;
+  margin-right: 50px;
+  margin-top: 3px;
+  background-repeat: no-repeat;
+  background: url("https://i.pinimg.com/originals/b8/ff/59/b8ff59f93b8b250b6ac07f99938a0200.jpg");
+}
