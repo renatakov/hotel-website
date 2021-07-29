@@ -14,28 +14,29 @@
   opacity: 0.7;
   position: absolute;
   z-index: -1.1;
-  top: 0px;
+  top: 0;
   bottom: 0;
-  left: 0px;
+  left: 0;
   right: 0;
 }
 
   .thehuth1 {
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 50px;
-  line-height: 72px;
-  margin-left: 400px;
-  color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 50px;
+    line-height: 72px;
+    margin-left: 400px;
+    color: #fff;
+
 }
 
 .thehut1 {
   position: relative;
   width: 1000px;
   height: 1300px;
-  margin-right: 0px;
-  top: 0px;
+  margin-right: 0;
+  top: 0;
   background-size: 100% 1300px;
   background-repeat: no-repeat;
   background: url(https://i.pinimg.com/originals/b8/ff/59/b8ff59f93b8b250b6ac07f99938a0200.jpg);
