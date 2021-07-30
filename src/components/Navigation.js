@@ -39,11 +39,11 @@ function Navigation() {
                 <Link to="/thehut">
                   The Hut
                 </Link>
+              </Nav.Link>
               <Nav.Link>
                 <Link to="/aboutus">
                   About Us
                 </Link>
-              </Nav.Link>
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
