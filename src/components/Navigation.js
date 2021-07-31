@@ -41,6 +41,11 @@ function Navigation() {
                 </Link>
               </Nav.Link>
               <Nav.Link>
+                <Link to="/thearea">
+                  The Area
+                </Link>
+              </Nav.Link>
+              <Nav.Link>
                 <Link to="/aboutus">
                   About Us
                 </Link>

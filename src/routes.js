@@ -22,4 +22,11 @@ export default [
       return import("./pages/TheHut/TheHut");
     }),
   },
+  {
+    path: "/thearea",
+    exact: true,
+    component: lazy(() => {
+      return import("./pages/TheArea/TheArea");
+    }),
+  },
 ]
