@@ -36,20 +36,70 @@
   font-weight: 300;
   font-size: 18px;
   line-height: 24px;
-  text-decoration-line: underline;
+  text-decoration: underline;
   color: #ffffff;
 }
 
 .buttonsmall {
-  background-color: Transparent;
+  background-color: transparent;
   background-repeat: no-repeat;
   cursor: pointer;
   overflow: hidden;
   border: 1px solid white;
   color: white;
   padding: 15px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: bold;
   margin-left: 430px;
   margin-top: 240px;
+}
+
+.firstimgarea {
+  position: absolute;
+  width: 530px;
+  height: 400px;
+  left: 3%;
+  top: 90%;
+}
+
+.h2area {
+  position: absolute;
+  width: 206px;
+  height: 40px;
+  left: 60%;
+  top: 85%;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 40px;
+  color: #5b6460;
+}
+
+.q1area {
+  position: absolute;
+  width: 393px;
+  height: 72px;
+  left: 60%;
+  top: 520px;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  color: #5b6460;
+}
+
+.p2area {
+  position: absolute;
+  width: 380px;
+  height: 182px;
+  left: 60%;
+  top: 580px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 30px;
+  color: #333333;
 }
