@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+
 .sec1area {
   background: url(https://assets.unenvironment.org/styles/article_billboard_image/s3/2020-09/v2osk-1Z2niiBPg5A-unsplash.jpg?VersionId=null&amp;h=541feb1c&amp;itok=bsOEqVFI);
   width: 100%;
@@ -6,4 +8,48 @@
   margin-top: 5px;
   background-size: 100% 45%;
   background-repeat: no-repeat;
+}
+
+.h1area {
+  position: absolute;
+  height: 72px;
+  left: -22.48%;
+  right: -22.48%;
+  top: calc(50% - 72px / 2 - 72px);
+  font-family: "Roboto", sans-serif;
+  font-weight: bolder;
+  font-style: normal;
+  font-size: 70px;
+  line-height: 72px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.p1area {
+  position: absolute;
+  height: 24px;
+  left: 42%;
+  right: 25.32%;
+  top: calc(55% - 24px / 2 - 9px);
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 24px;
+  text-decoration-line: underline;
+  color: #ffffff;
+}
+
+.buttonsmall {
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  overflow: hidden;
+  border: 1px solid white;
+  color: white;
+  padding: 15px;
+  font-family: 'Roboto', sans-serif;
+  font-style: bold;
+  margin-left: 430px;
+  margin-top: 240px;
 }

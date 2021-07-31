@@ -8,6 +8,7 @@ class TheArea extends Component {
       <section className={cssstyle.sec1area}>
         <h1 className={cssstyle.h1area}>The Area</h1>
         <p className={cssstyle.p1area}>Vesterborg, Denmark</p>
+        <button className={cssstyle.buttonsmall}>GET DIRECTIONS</button>
       </section>
       </>
     );
