@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
 
-.firstcontainer{
+.firstcontainer {
   width: 100%;
   height: 700px;
   margin-right: 100px;
@@ -10,18 +10,18 @@
   background-repeat: no-repeat;
 }
 
-.firsth1{
+.firsth1 {
   margin-left: 530px;
   color: aliceblue;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
 }
 
-.firstp{
+.firstp {
   position: absolute;
   left: 50%;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -29,13 +29,15 @@
   color: #fcfcfcdc;
 }
 
-.booknow{
+.booknow {
   position: absolute;
+  font-family: "Roboto", sans-serif;
+  font-weight: bolder;
   width: 150px;
   height: 50px;
   top: 390px;
   left: 60px;
-  background: #5B6460;
+  background: #5b6460;
 }
 
 .price {
@@ -44,45 +46,45 @@
   height: 50px;
   top: 390px;
   left: 208px;
-  background-color: #E9ECE0;
+  background-color: #e9ece0;
   border: none;
 }
 
 em {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-size: 10px;
 }
 
-.h2o2{
+.h2o2 {
   position: absolute;
   width: 206px;
   height: 40px;
   left: 60px;
   top: 450px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 40px;
   line-height: 40px;
-  color: #5B6460;
+  color: #5b6460;
 }
 
-.po2p{
+.po2p {
   position: absolute;
-width: 465px;
-height: 244px;
-left: 70px;
-top: 510px;
-font-family: 'Roboto', sans-serif;
-font-style: normal;
-font-weight: 300;
-font-size: 13px;
-line-height: 30px;
-color: #000000;
+  width: 465px;
+  height: 244px;
+  left: 70px;
+  top: 510px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 30px;
+  color: #000000;
 }
 
-.secimg{
+.secimg {
   position: absolute;
   width: 340px;
   height: 300px;
@@ -90,7 +92,7 @@ color: #000000;
   top: 500px;
 }
 
-.po3p{
+.po3p {
   position: absolute;
   width: 693px;
   height: 438px;
@@ -98,13 +100,13 @@ color: #000000;
   top: 700px;
   text-decoration: underline;
   color: gray;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
 }
 
-.house3{
+.house3 {
   position: absolute;
   width: 270px;
   height: 230px;
@@ -112,7 +114,7 @@ color: #000000;
   top: 870px;
 }
 
- .house2{
+.house2 {
   position: absolute;
   width: 270px;
   height: 230px;
@@ -120,7 +122,7 @@ color: #000000;
   top: 870px;
 }
 
-.house1{
+.house1 {
   position: absolute;
   width: 270px;
   height: 230px;
@@ -128,26 +130,25 @@ color: #000000;
   top: 870px;
 }
 
-
-.pololo{
+.pololo {
   position: absolute;
   width: 310px;
   height: 270px;
   left: 340px;
   top: 1200px;
-  font-family: 'Roboto', sans-serif;
-  background-color: #E9ECE0;
+  font-family: "Roboto", sans-serif;
+  background-color: #e9ece0;
   text-align: center;
   justify-content: center;
   font-size: 13px;
 }
 
-.po6p{
-text-decoration: underline;
-color: gray;
+.po6p {
+  text-decoration: underline;
+  color: gray;
 }
 
-.map{
+.map {
   position: absolute;
   width: 310px;
   height: 270px;
@@ -155,200 +156,200 @@ color: gray;
   top: 1200px;
 }
 
-.section2{
+.section2 {
   position: absolute;
   left: 130px;
   top: -30px;
 }
 
-.facilities{
+.facilities {
   position: absolute;
-width: 618px;
-height: 540px;
-left: 163px;
-top: 1440px;
-background: #5B6460;
+  width: 618px;
+  height: 540px;
+  left: 163px;
+  top: 1440px;
+  background: #5b6460;
 }
 
-.fac{
+.fac {
   position: absolute;
   left: 210px;
   top: 50px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 40px;
   line-height: 40px;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
-.fridge{
+.fridge {
   position: absolute;
   left: 130px;
   top: 180px;
 }
 
-.kitchen{
+.kitchen {
   position: absolute;
   left: 235px;
   top: 180px;
 }
 
-.minif{
+.minif {
   position: absolute;
   left: 120px;
   top: 220px;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
-  color: #E9ECE0;
+  font-family: "Roboto", sans-serif;
+  color: #e9ece0;
   font-size: 12px;
   font-style: normal;
 }
 
-.kitchene{
+.kitchene {
   position: absolute;
   left: 230px;
   top: 220px;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
-  color: #E9ECE0;
+  font-family: "Roboto", sans-serif;
+  color: #e9ece0;
   font-size: 12px;
   font-style: normal;
 }
 
-.pcoffee{
+.pcoffee {
   position: absolute;
   left: 330px;
   top: 220px;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
-  color: #E9ECE0;
+  font-family: "Roboto", sans-serif;
+  color: #e9ece0;
   font-size: 12px;
   font-style: normal;
 }
 
-.coffee{
+.coffee {
   position: absolute;
   left: 340px;
   top: 180px;
 }
 
-.cup{
+.cup {
   position: absolute;
   left: 470px;
   top: 185px;
 }
 
-.electrictea{
+.electrictea {
   position: absolute;
   left: 450px;
   top: 220px;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
-  color: #E9ECE0;
+  font-family: "Roboto", sans-serif;
+  color: #e9ece0;
   font-size: 12px;
   font-style: normal;
 }
 
-.parking{
+.parking {
   position: absolute;
   left: 115px;
   top: 280px;
 }
 
-.car{
+.car {
   position: absolute;
   left: 125px;
   top: 330px;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
-  color: #E9ECE0;
+  font-family: "Roboto", sans-serif;
+  color: #e9ece0;
   font-size: 12px;
   font-style: normal;
 }
 
-.tree{
+.tree {
   position: absolute;
   left: 230px;
   top: 287px;
 }
 
-.forestree{
+.forestree {
   position: absolute;
   left: 210px;
   top: 330px;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
-  color: #E9ECE0;
+  font-family: "Roboto", sans-serif;
+  color: #e9ece0;
   font-size: 12px;
   font-style: normal;
 }
 
-.heatingf{
+.heatingf {
   position: absolute;
   left: 340px;
   top: 283px;
 }
 
-.pheating{
+.pheating {
   position: absolute;
   left: 335px;
   top: 330px;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
-  color: #E9ECE0;
+  font-family: "Roboto", sans-serif;
+  color: #e9ece0;
   font-size: 12px;
   font-style: normal;
 }
 
-.vtwo{
+.vtwo {
   position: absolute;
   left: 460px;
   top: 283px;
 }
 
-.pvtwo{
+.pvtwo {
   position: absolute;
   left: 475px;
   top: 330px;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
-  color: #E9ECE0;
+  font-family: "Roboto", sans-serif;
+  color: #e9ece0;
   font-size: 12px;
   font-style: normal;
 }
 
-.parking2{
+.parking2 {
   position: absolute;
   left: 122px;
   top: 383px;
 }
 
-.parksp{
+.parksp {
   position: absolute;
   left: 124px;
   top: 410px;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
-  color: #E9ECE0;
+  font-family: "Roboto", sans-serif;
+  color: #e9ece0;
   font-size: 12px;
   font-style: normal;
 }
 
-.shower{
+.shower {
   position: absolute;
   left: 230px;
   top: 373px;
 }
 
-.showersp{
+.showersp {
   position: absolute;
   left: 230px;
   top: 415px;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
-  color: #E9ECE0;
+  font-family: "Roboto", sans-serif;
+  color: #e9ece0;
   font-size: 12px;
   font-style: normal;
 }
@@ -364,25 +365,25 @@ background: #5B6460;
   left: 330px;
   top: 415px;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
-  color: #E9ECE0;
+  font-family: "Roboto", sans-serif;
+  color: #e9ece0;
   font-size: 12px;
   font-style: normal;
 }
 
-.books{
+.books {
   position: absolute;
   left: 460px;
   top: 380px;
 }
 
-.booksp{
+.booksp {
   position: absolute;
   left: 450px;
   top: 415px;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
-  color: #E9ECE0;
+  font-family: "Roboto", sans-serif;
+  color: #e9ece0;
   font-size: 12px;
   font-style: normal;
 }
@@ -411,8 +412,8 @@ background: #5B6460;
   height: 50px;
   text-align: center;
   padding: 20px;
-  font-family: 'Roboto', sans-serif;
-  color: #E9ECE0;
+  font-family: "Roboto", sans-serif;
+  color: #e9ece0;
   font-size: 10px;
   font-style: normal;
   background-color: burlywood;
@@ -422,26 +423,28 @@ background: #5B6460;
 .imgp:hover {
   background-color: gray;
   text-decoration: underline;
-  box-shadow: rgb(255 255 255) 0px 54px 55px, rgb(255 255 255) 0px -12px 30px, rgb(255 255 255) 0px 4px 6px, rgb(255 255 255) 0px 12px 13px, rgb(255 255 255) 0px -3px 5px;
+  box-shadow: rgb(255 255 255) 0px 54px 55px, rgb(255 255 255) 0px -12px 30px,
+    rgb(255 255 255) 0px 4px 6px, rgb(255 255 255) 0px 12px 13px,
+    rgb(255 255 255) 0px -3px 5px;
 }
 
-.h3first2{
+.h3first2 {
   position: absolute;
   left: 20px;
   top: 2230px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 40px;
   line-height: 60px;
-  color: #5B6460;
+  color: #5b6460;
 }
 
-.justp2{
+.justp2 {
   position: absolute;
   left: 50px;
   top: 2340px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 16px;
@@ -449,13 +452,13 @@ background: #5B6460;
   color: #000000;
 }
 
-.addressonly2{
+.addressonly2 {
   position: absolute;
   width: 167px;
   height: 30px;
   left: 50px;
   top: 2400px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 16px;
@@ -464,7 +467,7 @@ background: #5B6460;
   padding: 5px;
 }
 
-.twitter2{
+.twitter2 {
   position: absolute;
   left: 200px;
   top: 2490px;
@@ -473,11 +476,13 @@ background: #5B6460;
   padding: 1px;
 }
 
-.twitter2:hover{
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgb(24, 23, 23) 0px -3px 5px;
+.twitter2:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgb(24, 23, 23) 0px -3px 5px;
 }
 
-.facebook2{
+.facebook2 {
   position: absolute;
   width: 50px;
   height: 50px;
@@ -489,11 +494,13 @@ background: #5B6460;
   padding: 1px;
 }
 
-.facebook2:hover{
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgb(24, 23, 23) 0px -3px 5px;
+.facebook2:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgb(24, 23, 23) 0px -3px 5px;
 }
 
-.instagram2{
+.instagram2 {
   position: absolute;
   width: 50px;
   height: 50px;
@@ -505,14 +512,16 @@ background: #5B6460;
   padding: 1px;
 }
 
-.instagram2:hover{
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgb(24, 23, 23) 0px -3px 5px;
+.instagram2:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgb(24, 23, 23) 0px -3px 5px;
 }
 
-.ioioio{
+.ioioio {
   position: absolute;
-left: 576px;
-top: 2350px;
+  left: 576px;
+  top: 2350px;
 }
 
 .booknow2 {
@@ -521,7 +530,7 @@ top: 2350px;
   height: 50px;
   top: 2430px;
   left: 576px;
-  background: #5B6460;
+  background: #5b6460;
 }
 
 .price1 {
@@ -530,17 +539,17 @@ top: 2350px;
   height: 50px;
   top: 2430px;
   left: 720px;
-  background-color: #E9ECE0;
+  background-color: #e9ece0;
   border: none;
 }
 
-footer{
+footer {
   position: absolute;
   width: 1012px;
   height: 300px;
   left: 0px;
   top: 2600px;
-  background: #5B6460;
+  background: #5b6460;
 }
 
 .footersp1 {
@@ -549,13 +558,13 @@ footer{
   height: 24px;
   left: 470px;
   top: 20px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: sans-serif;
   font-weight: 300;
   font-size: 14px;
   line-height: 24px;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .footersp3 {
@@ -564,13 +573,13 @@ footer{
   height: 24px;
   left: 660px;
   top: 20px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: sans-serif;
   font-weight: 300;
   font-size: 14px;
   line-height: 24px;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .footersp4 {
@@ -579,13 +588,13 @@ footer{
   height: 24px;
   left: 840px;
   top: 20px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: sans-serif;
   font-weight: 300;
   font-size: 14px;
   line-height: 24px;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .paypal1 {

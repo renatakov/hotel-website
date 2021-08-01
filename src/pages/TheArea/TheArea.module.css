@@ -96,7 +96,7 @@
   height: 182px;
   left: 60%;
   top: 580px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 16px;
@@ -105,3 +105,25 @@
 }
 
 /* third section */
+
+.maparea {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  left: 60%;
+  top: 860px;
+}
+
+.p3area {
+  position: absolute;
+  width: 400px;
+  height: 168px;
+  left: 15%;
+  top: 890px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 56px;
+  color: #5b6460;
+}
