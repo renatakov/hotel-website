@@ -55,6 +55,7 @@ class TheArea extends Component {
             <br /> On the roof, surrounded by treetops, there is a terrace,
             which is about nine meters above ground.
           </p>
+          
         </section>
       </>
     );
