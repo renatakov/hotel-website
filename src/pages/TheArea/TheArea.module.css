@@ -127,3 +127,82 @@
   line-height: 56px;
   color: #5b6460;
 }
+
+.h3area {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  left: 15%;
+  top: 1200px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 56px;
+  color: #5b6460;
+}
+
+.restaurant {
+  position: absolute;
+  width: 346px;
+  height: 346px;
+  left: 10%;
+  top: 1330px;
+}
+
+.p4area {
+  position: absolute;
+  width: 448px;
+  height: 40px;
+  left: 50%;
+  top: 1300px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 40px;
+  color: #5b6460;
+}
+
+.p41area {
+  position: absolute;
+  width: 105px;
+  height: 30px;
+  left: 52%;
+  top: 1380px;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 30px;
+  color: #5b6460;
+  text-decoration: underline;
+}
+
+.p42area {
+  position: absolute;
+  width: 105px;
+  height: 30px;
+  left: 62%;
+  top: 1380px;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 30px;
+  color: #5b6460;
+}
+
+.p43area {
+  position: absolute;
+  width: 429px;
+  height: 181px;
+  left: 50%;
+  top: 1420px;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 30px;
+  color: #5b6460;
+}
