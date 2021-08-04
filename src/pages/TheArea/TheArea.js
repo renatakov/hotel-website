@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import cssstyle from "./TheArea.module.css";
 import map2 from "./newmap.png";
-import { css } from "styled-components";
 
 class TheArea extends Component {
   render() {
@@ -55,7 +54,23 @@ class TheArea extends Component {
             <br /> On the roof, surrounded by treetops, there is a terrace,
             which is about nine meters above ground.
           </p>
-          
+          <p className={cssstyle.p5area}>Experiences in nature</p>
+          <p className={cssstyle.p51area}>Lorem Impus</p>
+          <p className={cssstyle.p52area}>Lorem Impus</p>
+          <p className={cssstyle.p53area}>
+            Løvtag’s three exclusive and comfortable cabins, Et, Ro and Ly, are
+            designed by architect Sigurd Larsen.
+            <br /> They all have an open space with a double bed, a double sofa
+            bed, kitchen, separate toilet and an outdoor shower. <br /> On the
+            roof, surrounded by treetops, there is a terrace, which is about
+            nine meters above ground. <br /> The cottages are built around tall,
+            old trees that go through the entire cottage from floor to ceiling.
+          </p>
+          <img
+            className={cssstyle.naturalarea}
+            src="https://blog.zor.com/wp-content/uploads/2020/07/blake-richard-verdoorn-cssvEZacHvQ-unsplash.jpg"
+            alt="Natural Area"
+          />
         </section>
       </>
     );

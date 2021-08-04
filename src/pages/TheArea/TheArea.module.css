@@ -208,3 +208,67 @@
 }
 
 /* TODO: доделать 4-ую секцию */
+
+.p5area {
+  position: absolute;
+  width: 448px;
+  height: 40px;
+  left: 9%;
+  top: 1800px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 40px;
+  color: #5b6460;
+}
+
+.p51area {
+  position: absolute;
+  width: 448px;
+  height: 40px;
+  left: 15%;
+  top: 1870px;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 15px;
+  color: #5b6460;
+  text-decoration: underline;
+}
+
+.p52area {
+  position: absolute;
+  width: 448px;
+  height: 40px;
+  left: 28%;
+  top: 1870px;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 15px;
+  color: #5b6460;
+  text-decoration: none;
+}
+
+.p53area {
+  position: absolute;
+  width: 429px;
+  height: 181px;
+  left: 9%;
+  top: 1900px;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 30px;
+  color: #5b6460;
+}
+
+.naturalarea {
+  position: absolute;
+  width: 346px;
+  height: 346px;
+  left: 60%;
+  top: 1810px;
+}
