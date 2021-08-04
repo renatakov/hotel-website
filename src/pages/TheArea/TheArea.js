@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import cssstyle from "./TheArea.module.css";
 import map2 from "./newmap.png";
 
+
 class TheArea extends Component {
   render() {
     return (
@@ -71,7 +72,76 @@ class TheArea extends Component {
             src="https://blog.zor.com/wp-content/uploads/2020/07/blake-richard-verdoorn-cssvEZacHvQ-unsplash.jpg"
             alt="Natural Area"
           />
+          <img
+            src="https://images.unsplash.com/photo-1489402954857-207e3f591c0f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+            alt="Road Img"
+            className={cssstyle.roadimg}
+          />
+          <p className={cssstyle.drivep}>Go for a drive</p>
+          <p className={cssstyle.p61area}>Lorem Impus</p>
+          <p className={cssstyle.p62area}>Lorem Impus</p>
+          <p className={cssstyle.p63area}>
+            Løvtag’s three exclusive and comfortable cabins, Et, Ro and Ly, are
+            designed by architect Sigurd Larsen.
+            <br /> They all have an open space with a double bed, a double sofa
+            bed, kitchen, separate toilet and an outdoor shower.
+            <br /> On the roof, surrounded by treetops, there is a terrace,
+            which is about nine meters above ground.
+          </p>
+          <p className={cssstyle.p7area}>Small-town charm</p>
+          <p className={cssstyle.p71area}>Lorem Impus</p>
+          <p className={cssstyle.p72area}>Lorem Impus</p>
+          <p className={cssstyle.p73area}>
+            Løvtag’s three exclusive and comfortable cabins, Et, Ro and Ly, are
+            designed by architect Sigurd Larsen. <br /> They all have an open
+            space with a double bed, a double sofa bed, kitchen, separate toilet
+            and an outdoor shower.
+            <br /> On the roof, surrounded by treetops, there is a terrace,
+            which is about nine meters above ground.
+            <br /> The cottages are built around tall, old trees that go through
+            the entire cottage from floor to ceiling.
+          </p>
+          <img
+            src="http://images.unsplash.com/photo-1604977573941-b73236a9edd0?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max"
+            alt=""
+            className={cssstyle.townimg}
+          />
         </section>
+        <section className={cssstyle.sec5area}></section>
+        <footer>
+          <p className={cssstyle.footersp2}>TERMS AND CONDITIONS</p>
+          <p className={cssstyle.footersp4}>CENCELLATION POLICY</p>
+          <p className={cssstyle.footersp5}>PRIVACY POLICY</p>
+          <img
+            src="https://image.flaticon.com/icons/png/512/38/38971.png"
+            className={cssstyle.paypal2}
+            alt="Paypal"
+            width="50px"
+            height="50px"
+          />
+          <img
+            src="https://w7.pngwing.com/pngs/948/539/png-transparent-mastercard-icon-credit-card-payment-card-mastercard-logo-text-label-logo-thumbnail.png"
+            className={cssstyle.mastercard2}
+            alt="Mastercard"
+            width="50px"
+            height="50px"
+          />
+          <img
+            src="https://cdn.iconscout.com/icon/free/png-256/visa-credit-debit-bank-transaction-card-32265.png"
+            className={cssstyle.visa2}
+            alt="visa"
+            width="50px"
+            height="50px"
+          />
+          <img
+            src="https://shop.sembenini.it/img/cms/bank-transfer-logo-on-black.png"
+            className={cssstyle.banktransfer2}
+            alt="v"
+            width="50px"
+            height="50px"
+          />
+          <p className={cssstyle.content2}>© 2021 The Glass Huts</p>
+        </footer>
       </>
     );
   }
