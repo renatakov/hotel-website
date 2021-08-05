@@ -21,7 +21,7 @@
   height: 72px;
   left: -29.48%;
   right: -22.48%;
-  top: calc(40% - 72px/2 - 72px);
+  top: calc(40% - 72px / 2 - 72px);
   font-style: normal;
   font-weight: 300;
   font-size: 60px;
@@ -46,4 +46,70 @@
   margin-top: 1px;
   /* background-repeat: no-repeat;
   background: url(https://i.pinimg.com/originals/b8/ff/59/b8ff59f93b8b250b6ac07f99938a0200.jpg); */
+}
+
+.firstthehutimg {
+  position: absolute;
+  width: 346px;
+  height: 346px;
+  left: 80px;
+  top: 300px;
+}
+
+.p1thehut {
+  position: absolute;
+  width: 226px;
+  height: 40px;
+  left: 560px;
+  top: 260px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 40px;
+  color: #5b6460;
+}
+
+.p2thehut {
+  position: absolute;
+  width: 69px;
+  height: 30px;
+  left: 580px;
+  top: 340px;
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 30px;
+  color: #5b6460;
+  text-decoration: underline;
+}
+
+.p3thehut {
+  position: absolute;
+width: 149px;
+height: 30px;
+left: 660px;
+top: 340px;
+font-family: 'Roboto', sans-serif;
+font-style: italic;
+font-weight: normal;
+font-size: 14px;
+line-height: 30px;
+color: #5B6460;
+}
+
+.p4thehut {
+  position: absolute;
+width: 429px;
+height: 243px;
+left: 560px;
+top: 370px;
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 300px;
+font-size: 13px;
+line-height: 30px;
+color: #333333;
+
 }
