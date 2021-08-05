@@ -32,22 +32,27 @@ function Navigation() {
             <Nav>
               <Nav.Link>
                 <Link to="/">
-                  Home
+                  HOME
                 </Link>
               </Nav.Link>
               <Nav.Link>
                 <Link to="/thehut">
-                  The Hut
+                  THE HUT
                 </Link>
               </Nav.Link>
               <Nav.Link>
                 <Link to="/thearea">
-                  The Area
+                  THE AREA
+                </Link>
+              </Nav.Link>
+              <Nav.Link>
+                <Link to="/booking">
+                  BOOKING
                 </Link>
               </Nav.Link>
               <Nav.Link>
                 <Link to="/aboutus">
-                  About Us
+                  ABOUT US
                 </Link>
               </Nav.Link>
             </Nav>

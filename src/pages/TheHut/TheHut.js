@@ -6,8 +6,8 @@ class TheHut extends Component {
     return (
       <>
         <div className={csss.thehut1}>
-          <div className={csss.overlay12}></div>
           <h1 className={csss.thehuth1}>The Hut</h1>
+          {/* <div className={csss.overlay12}></div> */}
         </div>
       </>
     );

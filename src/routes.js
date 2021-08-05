@@ -29,4 +29,11 @@ export default [
       return import("./pages/TheArea/TheArea");
     }),
   },
+  {
+    path: "/booking",
+    exact: true,
+    component: lazy(() => {
+      return import("./pages/Booking/Booking");
+    }),
+  },
 ]

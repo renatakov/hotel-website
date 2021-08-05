@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
 
-body {
+/* body {
   margin: 0;
-}
+} */
 
-.overlay12 {
-  background-color: black;
+/* .overlay12 {
+  background-color: rgb(92, 92, 92);
   opacity: 0.7;
   position: absolute;
   z-index: -1.1;
@@ -13,30 +13,37 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
-}
+} */
 
 .thehuth1 {
   font-family: "Roboto", sans-serif;
+  position: absolute;
+  height: 72px;
+  left: -29.48%;
+  right: -22.48%;
+  top: calc(40% - 72px/2 - 72px);
   font-style: normal;
   font-weight: 300;
-  font-size: 50px;
-  line-height: 200px;
-  margin-left: 400px;
-  color: #fff;
+  font-size: 60px;
+  line-height: 72px;
+  /* identical to box height, or 103% */
+
+  text-align: center;
+  color: rgb(105, 105, 105);
 }
 
 .thehut1 {
-  position: relative;
+  /* position: relative;
   width: 100%;
   background-size: cover;
-  height: 100%;
+  height: 100%; */
   /* background-position: 0px 85px; */
   /* -webkit-background-size: 100% 100%;
   -moz-background-size: 100% 100%;
   -o-background-size: 100% 100%; */
-  background-size: 100% 100%;
+  /* background-size: 100% 100%; */
   margin-right: 0px;
-  top: 0px;
-  background-repeat: no-repeat;
-  background: url(https://i.pinimg.com/originals/b8/ff/59/b8ff59f93b8b250b6ac07f99938a0200.jpg);
+  margin-top: 1px;
+  /* background-repeat: no-repeat;
+  background: url(https://i.pinimg.com/originals/b8/ff/59/b8ff59f93b8b250b6ac07f99938a0200.jpg); */
 }
