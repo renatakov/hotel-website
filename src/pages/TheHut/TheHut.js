@@ -45,6 +45,56 @@ class TheHut extends Component {
             alt="Second Img The Hut"
             className={csss.secondimgthehut}
           />
+          <img
+            src="http://images.unsplash.com/photo-1513442542250-854d436a73f2?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max"
+            alt="Third Img The Hut"
+            className={csss.thirdimgthehut}
+          />
+          <p className={csss.p10thehut}>Practicalities</p>
+          <p className={csss.p11thehut}>Breakfast</p>
+          <p className={csss.p12thehut}>Classic Dinner</p>
+          <p className={csss.p13thehut}>
+            Løvtag’s three exclusive and comfortable cabins, Et, Ro and Ly, are
+            designed by architect Sigurd Larsen.
+            <br /> They all have an open space with a double bed, a double sofa
+            bed, kitchen, separate toilet and an outdoor shower.
+            <br /> On the roof, surrounded by treetops, there is a terrace,
+            which is about nine meters above ground.
+          </p>
+          <footer>
+          <p className={csss.footersp3}>TERMS AND CONDITIONS</p>
+          <p className={csss.footersp9}>CENCELLATION POLICY</p>
+          <p className={csss.footersp8}>PRIVACY POLICY</p>
+          <img
+            src="https://image.flaticon.com/icons/png/512/38/38971.png"
+            className={csss.paypal3}
+            alt="Paypal"
+            width="50px"
+            height="50px"
+          />
+          <img
+            src="https://w7.pngwing.com/pngs/948/539/png-transparent-mastercard-icon-credit-card-payment-card-mastercard-logo-text-label-logo-thumbnail.png"
+            className={csss.mastercard3}
+            alt="Mastercard"
+            width="50px"
+            height="50px"
+          />
+          <img
+            src="https://cdn.iconscout.com/icon/free/png-256/visa-credit-debit-bank-transaction-card-32265.png"
+            className={csss.visa3}
+            alt="visa"
+            width="50px"
+            height="50px"
+          />
+          <img
+            src="https://shop.sembenini.it/img/cms/bank-transfer-logo-on-black.png"
+            className={csss.banktransfer3}
+            alt="v"
+            width="50px"
+            height="50px"
+          />
+          <p className={csss.content3}>© 2021 The Glass Huts</p>
+        </footer>
         </section>
       </>
     );
