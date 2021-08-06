@@ -76,7 +76,7 @@
   height: 30px;
   left: 580px;
   top: 340px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: italic;
   font-weight: normal;
   font-size: 14px;
@@ -87,29 +87,108 @@
 
 .p3thehut {
   position: absolute;
-width: 149px;
-height: 30px;
-left: 660px;
-top: 340px;
-font-family: 'Roboto', sans-serif;
-font-style: italic;
-font-weight: normal;
-font-size: 14px;
-line-height: 30px;
-color: #5B6460;
+  width: 149px;
+  height: 30px;
+  left: 660px;
+  top: 340px;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 30px;
+  color: #5b6460;
 }
 
 .p4thehut {
   position: absolute;
-width: 429px;
-height: 243px;
-left: 560px;
-top: 370px;
-font-family: 'Roboto', sans-serif;
-font-style: normal;
-font-weight: 300px;
-font-size: 13px;
-line-height: 30px;
-color: #333333;
-
+  width: 429px;
+  height: 243px;
+  left: 560px;
+  top: 370px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 300px;
+  font-size: 13px;
+  line-height: 30px;
+  color: #333333;
 }
+
+.p5thehut {
+  position: absolute;
+  width: 192px;
+  height: 40px;
+  left: 190px;
+  top: 690px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 40px;
+  color: #5b6460;
+}
+
+.secondimgthehut {
+  position: absolute;
+  width: 346px;
+  height: 346px;
+  left: 600px;
+  top: 700px;
+}
+
+.p6thehut {
+  position: absolute;
+  width: 192px;
+  height: 40px;
+  left: 198px;
+  top: 770px;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 40px;
+  color: #5b6460;
+  text-decoration: underline;
+}
+
+.p7thehut {
+  position: absolute;
+  width: 192px;
+  height: 40px;
+  left: 250px;
+  top: 770px;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 40px;
+  color: #5b6460;
+}
+
+.p8thehut {
+  position: absolute;
+  width: 192px;
+  height: 40px;
+  left: 310px;
+  top: 770px;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 40px;
+  color: #5b6460;
+}
+
+.p9thehut {
+  position: absolute;
+  width: 429px;
+  height: 243px;
+  left: 140px;
+  top: 810px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-size: 12px;
+  font-weight: 300px;
+  line-height: 30px;
+  color: #333333;
+}
+
