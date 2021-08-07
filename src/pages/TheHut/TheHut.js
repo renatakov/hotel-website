@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import csss from "./TheHut.module.css";
 import paypal from "../images/paypal.svg";
 import mastercard from "../images/mastercard.svg";
-
+import visa from "../images/visa.svg";
 
 class TheHut extends Component {
   render() {
@@ -65,39 +65,39 @@ class TheHut extends Component {
             which is about nine meters above ground.
           </p>
           <footer>
-          <p className={csss.footersp3}>TERMS AND CONDITIONS</p>
-          <p className={csss.footersp9}>CENCELLATION POLICY</p>
-          <p className={csss.footersp8}>PRIVACY POLICY</p>
-          <img
-            src={paypal}
-            className={csss.paypal3}
-            alt="Paypal"
-            width="50px"
-            height="50px"
-          />
-          <img
-            src={mastercard}
-            className={csss.mastercard3}
-            alt="Mastercard"
-            width="50px"
-            height="50px"
-          />
-          <img
-            src="https://cdn.iconscout.com/icon/free/png-256/visa-credit-debit-bank-transaction-card-32265.png"
-            className={csss.visa3}
-            alt="visa"
-            width="50px"
-            height="50px"
-          />
-          <img
-            src="https://shop.sembenini.it/img/cms/bank-transfer-logo-on-black.png"
-            className={csss.banktransfer3}
-            alt="v"
-            width="50px"
-            height="50px"
-          />
-          <p className={csss.content3}>© 2021 The Glass Huts</p>
-        </footer>
+            <p className={csss.footersp3}>TERMS AND CONDITIONS</p>
+            <p className={csss.footersp9}>CENCELLATION POLICY</p>
+            <p className={csss.footersp8}>PRIVACY POLICY</p>
+            <img
+              src={paypal}
+              className={csss.paypal3}
+              alt="Paypal"
+              width="50px"
+              height="50px"
+            />
+            <img
+              src={mastercard}
+              className={csss.mastercard3}
+              alt="Mastercard"
+              width="50px"
+              height="50px"
+            />
+            <img
+              src={visa}
+              className={csss.visa3}
+              alt="visa"
+              width="50px"
+              height="50px"
+            />
+            <img
+              src="https://shop.sembenini.it/img/cms/bank-transfer-logo-on-black.png"
+              className={csss.banktransfer3}
+              alt="v"
+              width="50px"
+              height="50px"
+            />
+            <p className={csss.content3}>© 2021 The Glass Huts</p>
+          </footer>
         </section>
       </>
     );

@@ -3,7 +3,7 @@ import cssstyle from "./TheArea.module.css";
 import map2 from "./newmap.png";
 import paypal from "../images/paypal.svg";
 import mastercard from "../images/mastercard.svg";
-
+import visa from "../images/visa.svg";
 
 
 
@@ -131,7 +131,7 @@ class TheArea extends Component {
             height="50px"
           />
           <img
-            src="https://cdn.iconscout.com/icon/free/png-256/visa-credit-debit-bank-transaction-card-32265.png"
+            src={visa}
             className={cssstyle.visa2}
             alt="visa"
             width="50px"
