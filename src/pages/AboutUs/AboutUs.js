@@ -5,6 +5,9 @@ import a from "./Panorama-Glass-Lodge2.jpg";
 import tuman from "./tuman.jpg";
 import yoyoyo from "./yoyoyo.jpg";
 import h from "./hart.png";
+import paypal from "../images/paypal.svg";
+import mastercard from "../images/mastercard.svg";
+
 
 class AboutUs extends Component {
   render() {
@@ -58,8 +61,8 @@ class AboutUs extends Component {
         <p className={s.footersp}>TERMS AND CONDITIONS</p>
         <p className={s.footersp2}>CENCELLATION POLICY</p>
         <p className={s.footersp3}>PRIVACY POLICY</p>
-        <img src="https://image.flaticon.com/icons/png/512/38/38971.png" className={s.paypal} alt="Paypal" width="50px" height="50px"/>
-        <img src="https://w7.pngwing.com/pngs/948/539/png-transparent-mastercard-icon-credit-card-payment-card-mastercard-logo-text-label-logo-thumbnail.png" className={s.mastercard} alt="Mastercard" width="50px" height="50px"/>
+        <img src={paypal} className={s.paypal} alt="Paypal" width="50px" height="50px"/>
+        <img src={mastercard} className={s.mastercard} alt="Mastercard" width="50px" height="50px"/>
         <img src="https://cdn.iconscout.com/icon/free/png-256/visa-credit-debit-bank-transaction-card-32265.png" className={s.visa} alt="visa" width="50px" height="50px"/>
         <img src="https://shop.sembenini.it/img/cms/bank-transfer-logo-on-black.png" className={s.banktransfer} alt="v" width="50px" height="50px"/>
         <p className={s.content}>© 2021 The Glass Huts</p>

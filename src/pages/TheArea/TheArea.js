@@ -1,6 +1,10 @@
 import React, { Component } from "react";
 import cssstyle from "./TheArea.module.css";
 import map2 from "./newmap.png";
+import paypal from "../images/paypal.svg";
+import mastercard from "../images/mastercard.svg";
+
+
 
 
 class TheArea extends Component {
@@ -113,14 +117,14 @@ class TheArea extends Component {
           <p className={cssstyle.footersp4}>CENCELLATION POLICY</p>
           <p className={cssstyle.footersp5}>PRIVACY POLICY</p>
           <img
-            src="https://image.flaticon.com/icons/png/512/38/38971.png"
+            src={paypal}
             className={cssstyle.paypal2}
             alt="Paypal"
             width="50px"
             height="50px"
           />
           <img
-            src="https://w7.pngwing.com/pngs/948/539/png-transparent-mastercard-icon-credit-card-payment-card-mastercard-logo-text-label-logo-thumbnail.png"
+            src={mastercard}
             className={cssstyle.mastercard2}
             alt="Mastercard"
             width="50px"

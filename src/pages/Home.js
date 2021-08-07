@@ -13,6 +13,9 @@ import parking2 from "./Home/parking2.png";
 import shower from "./Home/shower.png";
 import toilet from "./Home/toilets.png";
 import book from "./Home/books.png";
+import paypal from "../pages/images/paypal.svg";
+import mastercard from "../pages/images/mastercard.svg";
+
 
 class Home extends Component {
   render() {
@@ -30,7 +33,7 @@ class Home extends Component {
         <p className={style.po3p}>Read More</p>
         <img src="https://images.dwell.com/photos-6575684823601102848/6651420402502549504-large/the-bed-features-luxurious-supima-linen-and-woolen-blankets-as-well-as-hand-knit-pillows-from-a-local-artist.jpg" alt="lolololol" className={style.secimg} />
         <img src="https://cdn.archilovers.com/projects/b_730_b66affda-a307-4d28-b405-2a2b6477c8ae.jpg" alt="fera" className={style.house3} />
-         <img src="https://images.dwell.com/photos-6575684823601102848/6651420397127380992-large/watch-the-northern-lights-from-the-comfort-of-your-warm-bed-at-panorama-glass-lodge-iceland-designed-by-the-estonian-company-ood-homes-the-two-200-square-foot-prefab-cabins-are-thoughtfully-made-for-small-space-living-each-has-a-bedroom-living-room-bathro.jpg" alt="feru" className={style.house2} />
+        <img src="https://images.dwell.com/photos-6575684823601102848/6651420397127380992-large/watch-the-northern-lights-from-the-comfort-of-your-warm-bed-at-panorama-glass-lodge-iceland-designed-by-the-estonian-company-ood-homes-the-two-200-square-foot-prefab-cabins-are-thoughtfully-made-for-small-space-living-each-has-a-bedroom-living-room-bathro.jpg" alt="feru" className={style.house2} />
         <img src="https://i2.wp.com/panoramaglasslodge.com/wp-content/uploads/2020/02/DJI_0762.jpg" alt="fero" className={style.house1} />
       </section>
       <section className={style.section2}>
@@ -47,7 +50,7 @@ class Home extends Component {
       <p className={style.minif}>Mini Fridge</p>
       <img src={cook} alt="cook" className={style.kitchen} />
       <p className={style.kitchene}>Kitchenette</p>
-       <img src={coffee} alt="kofe" className={style.coffee} />
+      <img src={coffee} alt="kofe" className={style.coffee} />
       <p className={style.pcoffee}>Coffee machine</p>
       <img src={cup} alt="cup" className={style.cup} />
       <p className={style.electrictea}>Electric tea kettle</p>
@@ -61,9 +64,9 @@ class Home extends Component {
       <p className={style.pvtwo}>230V</p>
       <img src={parking2} alt="Parking" className={style.parking2} />
       <p className={style.parksp}>Parking</p>
-     <img src={shower} alt="Shower" className={style.shower} />
+    <img src={shower} alt="Shower" className={style.shower} />
       <p className={style.showersp}>Shower</p>
-       <img src={toilet} alt="Flushing toilets" className={style.toilets} />
+      <img src={toilet} alt="Flushing toilets" className={style.toilets} />
       <p className={style.toiletsp}>Flushing toilets</p>
       <img src={book} alt="Bedding & towels" className={style.books} />
       <p className={style.booksp}>Bedding & towels</p>
@@ -93,8 +96,8 @@ class Home extends Component {
         <p className={style.footersp1}>TERMS AND CONDITIONS</p>
         <p className={style.footersp3}>CENCELLATION POLICY</p>
         <p className={style.footersp4}>PRIVACY POLICY</p>
-        <img src="https://image.flaticon.com/icons/png/512/38/38971.png" className={style.paypal1} alt="Paypal" width="50px" height="50px"/>
-        <img src="https://w7.pngwing.com/pngs/948/539/png-transparent-mastercard-icon-credit-card-payment-card-mastercard-logo-text-label-logo-thumbnail.png" className={style.mastercard1} alt="Mastercard" width="50px" height="50px"/>
+        <img src={paypal} className={style.paypal1} alt="Paypal" width="50px" height="50px"/>
+        <img src={mastercard} className={style.mastercard1} alt="Mastercard" width="50px" height="50px"/>
         <img src="https://cdn.iconscout.com/icon/free/png-256/visa-credit-debit-bank-transaction-card-32265.png" className={style.visa1} alt="visa" width="50px" height="50px"/>
         <img src="https://shop.sembenini.it/img/cms/bank-transfer-logo-on-black.png" className={style.banktransfer1} alt="v" width="50px" height="50px"/>
         <p className={style.content1}>© 2021 The Glass Huts</p>

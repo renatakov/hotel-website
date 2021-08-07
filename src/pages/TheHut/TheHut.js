@@ -1,5 +1,8 @@
 import React, { Component } from "react";
 import csss from "./TheHut.module.css";
+import paypal from "../images/paypal.svg";
+import mastercard from "../images/mastercard.svg";
+
 
 class TheHut extends Component {
   render() {
@@ -66,14 +69,14 @@ class TheHut extends Component {
           <p className={csss.footersp9}>CENCELLATION POLICY</p>
           <p className={csss.footersp8}>PRIVACY POLICY</p>
           <img
-            src="https://image.flaticon.com/icons/png/512/38/38971.png"
+            src={paypal}
             className={csss.paypal3}
             alt="Paypal"
             width="50px"
             height="50px"
           />
           <img
-            src="https://w7.pngwing.com/pngs/948/539/png-transparent-mastercard-icon-credit-card-payment-card-mastercard-logo-text-label-logo-thumbnail.png"
+            src={mastercard}
             className={csss.mastercard3}
             alt="Mastercard"
             width="50px"
