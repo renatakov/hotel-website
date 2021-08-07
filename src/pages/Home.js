@@ -16,6 +16,9 @@ import book from "./Home/books.png";
 import paypal from "../pages/images/paypal.svg";
 import mastercard from "../pages/images/mastercard.svg";
 import visa from "../pages/images/visa.svg";
+import twitter from "../pages/images/twitter-brands.svg";
+import insta from "../pages/images/instagram-brands.svg";
+import facebook from "../pages/images/facebook-f-brands.svg";
 
 class Home extends Component {
   render() {
@@ -129,19 +132,19 @@ class Home extends Component {
           </address>
 
           <img
-            src="https://www.europanostra.org/wp-content/uploads/2017/09/2017-09-Twitter-logo.png"
+            src={twitter}
             alt="joj"
             className={style.twitter2}
             width="50px"
             height="50px"
           />
           <img
-            src="https://i.pinimg.com/originals/41/28/2b/41282b58cf85ddaf5d28df96ed91de98.png"
+            src={facebook}
             alt="facebook"
             className={style.facebook2}
           />
           <img
-            src="https://download.logo.wine/logo/Instagram/Instagram-Logo.wine.png"
+            src={insta}
             alt="instagram"
             className={style.instagram2}
           />
