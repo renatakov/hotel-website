@@ -78,7 +78,7 @@ class Faq extends Component {
                 PETS
               </label>
               <div className={style.accordionItemContent}>
-                Only small animals allowed
+              No pets
               </div>
             </div>
             <div className={style.accordionItem}>
@@ -91,9 +91,9 @@ class Faq extends Component {
                 CHECK-IN/CHECK-OUT
               </label>
               <div className={style.accordionItemContent}>
-                Check-in: 14:00;
+              Check-in: 2:00 PM - 11:00 PM;
                 <br />
-                Check-out: 12:00;
+                Check-out: 11:00 AM;
               </div>
             </div>
           </div>

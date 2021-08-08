@@ -11,6 +11,7 @@ import visa from "../images/visa.svg";
 import facebook from "../images/facebook-f-brands.svg";
 import instagram from "../images/instagram-brands.svg";
 import twit from "../images/twitter-brands.svg";
+import { NavLink } from 'react-router-dom';
 
 class AboutUs extends Component {
   render() {
@@ -20,7 +21,10 @@ class AboutUs extends Component {
           <div className={s.overlay}>
             <h1 className={s.fortext}>About Us</h1>
             <button className={s.contactus}>Contact Us</button>
+            <NavLink to="/faq">
+
             <button className={s.readfaq}>Red FAQ</button>
+            </NavLink>
           </div>
         </div>
         <div className={s.secdiv}>
@@ -98,16 +102,8 @@ class AboutUs extends Component {
             width="50px"
             height="50px"
           />
-          <img
-            src={facebook}
-            alt="facebook"
-            className={s.facebook}
-          />
-          <img
-            src={instagram}
-            alt="instagram"
-            className={s.instagram}
-          />
+          <img src={facebook} alt="facebook" className={s.facebook} />
+          <img src={instagram} alt="instagram" className={s.instagram} />
           <form className="firstform">
             <input
               type="text"
