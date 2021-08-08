@@ -1,5 +1,8 @@
 import React, { Component } from "react";
 import style from "./Faq.module.css";
+import paypal from "../images/paypal.svg";
+import mastercard from "../images/mastercard.svg";
+import visa from "../images/visa.svg";
 
 class Faq extends Component {
   render() {
@@ -95,6 +98,40 @@ class Faq extends Component {
             </div>
           </div>
         </div>
+        <footer>
+          <p className={style.footersp}>TERMS AND CONDITIONS</p>
+          <p className={style.footersp2}>CENCELLATION POLICY</p>
+          <p className={style.footersp3}>PRIVACY POLICY</p>
+          <img
+            src={paypal}
+            className={style.paypal}
+            alt="Paypal"
+            width="50px"
+            height="50px"
+          />
+          <img
+            src={mastercard}
+            className={style.mastercard}
+            alt="Mastercard"
+            width="50px"
+            height="50px"
+          />
+          <img
+            src={visa}
+            className={style.visa}
+            alt="visa"
+            width="50px"
+            height="50px"
+          />
+          <img
+            src="https://shop.sembenini.it/img/cms/bank-transfer-logo-on-black.png"
+            className={style.banktransfer}
+            alt="v"
+            width="50px"
+            height="50px"
+          />
+          <p className={style.content}>© 2021 The Glass Huts</p>
+        </footer>
       </>
     );
   }
