@@ -36,4 +36,11 @@ export default [
       return import("./pages/Booking/Booking");
     }),
   },
+  {
+    path: "/faq",
+    exact: true,
+    component: lazy(() => {
+      return import("./pages/Faq/Faq");
+    }),
+  }
 ]

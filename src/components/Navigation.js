@@ -55,9 +55,13 @@ function Navigation() {
                   ABOUT US
                 </Link>
               </Nav.Link>
+              <Nav.Link>
+                <Link to="/faq">
+                  FAQ
+                </Link>
+              </Nav.Link>
             </Nav>
           </Navbar.Collapse>
-
         </Container>
       </Navbar>
       </Styles>
