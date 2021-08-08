@@ -8,6 +8,9 @@ import h from "./hart.png";
 import paypal from "../images/paypal.svg";
 import mastercard from "../images/mastercard.svg";
 import visa from "../images/visa.svg";
+import facebook from "../images/facebook-f-brands.svg";
+import instagram from "../images/instagram-brands.svg";
+import twit from "../images/twitter-brands.svg";
 
 class AboutUs extends Component {
   render() {
@@ -89,19 +92,19 @@ class AboutUs extends Component {
           </address>
 
           <img
-            src="https://www.europanostra.org/wp-content/uploads/2017/09/2017-09-Twitter-logo.png"
-            alt="joj"
+            src={twit}
+            alt="twitter"
             className={s.twitter}
             width="50px"
             height="50px"
           />
           <img
-            src="https://i.pinimg.com/originals/41/28/2b/41282b58cf85ddaf5d28df96ed91de98.png"
+            src={facebook}
             alt="facebook"
             className={s.facebook}
           />
           <img
-            src="https://download.logo.wine/logo/Instagram/Instagram-Logo.wine.png"
+            src={instagram}
             alt="instagram"
             className={s.instagram}
           />

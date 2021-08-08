@@ -307,7 +307,9 @@ color: #fff;
   top: 1570px;
   background-color: gray;
   border-radius: 30px;
-  padding: 1px;
+  padding: 5px;
+  width: 33px;
+  height: 37px;
 }
 
 .twitter:hover{
@@ -316,14 +318,14 @@ color: #fff;
 
 .facebook{
   position: absolute;
-  width: 50px;
-  height: 50px;
+  width: 39px;
+  height: 39px;
   left: 150px;
   top: 1570px;
   background-color: grey;
   background-size: 130%;
   border-radius: 30px;
-  padding: 1px;
+  padding: 7px;
 }
 
 .facebook:hover{
@@ -332,14 +334,15 @@ color: #fff;
 
 .instagram{
   position: absolute;
-  width: 50px;
-  height: 50px;
+  width: 39px;
+  height: 39px;
   left: 65px;
   top: 1570px;
   background-color: grey;
   background-size: 100%;
   border-radius: 30px;
-  padding: 1px;
+  padding: 6px;
+
 }
 
 .instagram:hover{
