@@ -57,89 +57,93 @@
   border-bottom: 0 none;
 }
 
-footer{
+footer {
   position: absolute;
   width: 1012px;
-  height: 300px;
+  height: 270px;
   left: 0px;
-  top: 600px;
-  background: #5B6460;
+  top: 740px;
+  background: #5b6460;
 }
 
-.footersp{
+.footersp {
   position: absolute;
   width: 162px;
   height: 24px;
   left: 470px;
   top: 20px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: sans-serif;
   font-weight: 300;
   font-size: 14px;
   line-height: 24px;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
-.footersp2{
+.footersp2 {
   position: absolute;
   width: 162px;
   height: 24px;
   left: 660px;
   top: 20px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: sans-serif;
   font-weight: 300;
   font-size: 14px;
   line-height: 24px;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
-.footersp3{
+.footersp3 {
   position: absolute;
   width: 162px;
   height: 24px;
   left: 840px;
   top: 20px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: sans-serif;
   font-weight: 300;
   font-size: 14px;
   line-height: 24px;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
-.paypal{
+.paypal {
   position: absolute;
   left: 650px;
   top: 80px;
 }
 
-.mastercard{
+.mastercard {
   position: absolute;
   left: 720px;
   top: 80px;
 }
 
-.visa{
+.visa {
   position: absolute;
   left: 780px;
   top: 80px;
 }
 
-.banktransfer{
+.banktransfer {
   position: absolute;
   left: 840px;
   top: 80px;
 }
 
-.content{
+.content {
   position: absolute;
   left: 70px;
   top: 230px;
   color: white;
 }
+
+/* input[type="checkbox"] {
+    width: 100%;
+} */
 
 /* DONE!!! */
