@@ -16,8 +16,9 @@ class Booking extends Component {
           {/* <option value="r1">Закуска Барская</option>
           <option value="r2">Раки, фаршированные по-царски</option>
           <option value="r3">Биточки в горшочке</option> */}
-    {/* </optgroup> 
+    {/* </optgroup>
           </select> */}
+          {/* TODO: сделать букинг(booking) */}
 
         </section>
       </>

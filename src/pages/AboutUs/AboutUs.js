@@ -22,7 +22,6 @@ class AboutUs extends Component {
             <h1 className={s.fortext}>About Us</h1>
             <button className={s.contactus}>Contact Us</button>
             <NavLink to="/faq">
-
             <button className={s.readfaq}>Red FAQ</button>
             </NavLink>
           </div>
