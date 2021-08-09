@@ -17,6 +17,7 @@
   top: 0;
   left: 0;
   opacity: 0;
+  margin-right: 0px;
 }
 .accordionItemTrigger {
   display: block;
@@ -24,6 +25,7 @@
   font-family: "Roboto", sans-serif;
   border: 1px solid black;
   font-weight: bold;
+
 }
 .accordionItemContent {
   padding: 20px;
@@ -56,6 +58,7 @@
   border-top: 5px solid gray;
   border-bottom: 0 none;
 }
+
 
 footer {
   position: absolute;
@@ -141,9 +144,3 @@ footer {
   top: 230px;
   color: white;
 }
-
-/* input[type="checkbox"] {
-    width: 100%;
-} */
-
-/* DONE!!! */

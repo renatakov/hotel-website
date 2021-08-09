@@ -11,13 +11,6 @@ class Booking extends Component {
         </section>
         <section className={css.sec2booking}>
           <p className={css.p2booking}>Choose Additional Services</p>
-          {/* <select name="food">
-    {/* <optgroup label="Classic Dinner"> */}
-          {/* <option value="r1">Закуска Барская</option>
-          <option value="r2">Раки, фаршированные по-царски</option>
-          <option value="r3">Биточки в горшочке</option> */}
-    {/* </optgroup>
-          </select> */}
           {/* TODO: сделать букинг(booking) */}
 
         </section>
