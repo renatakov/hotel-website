@@ -83,7 +83,15 @@ class Booking extends Component {
           />
           <p className={css.contentbook}>© 2021 The Glass Huts</p>
         </footer>
-        <section className={css.sec5booking}></section>
+        <section className={css.sec5booking}>
+          <h3 className={css.h35booking}>
+            3.200kr <em> /night </em>
+          </h3>
+          <div className={css.sec51booking}>
+          <p className={css.p10booking51}>Check in</p>
+          <p className={css.p11booking51}>4/29/2021</p>
+          </div>
+        </section>
       </>
     );
   }

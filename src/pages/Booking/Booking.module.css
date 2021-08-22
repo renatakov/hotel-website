@@ -273,3 +273,64 @@ footer {
   top: 230px;
   color: white;
 }
+
+.sec5booking {
+  position: absolute;
+  width: 250px;
+  height: 330px;
+  left: 600px;
+  top: 65%;
+  background: #ffffff;
+  border: 0.7px solid #5b6460;
+  box-sizing: border-box;
+  padding: 3px;
+}
+
+em {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-size: 10px;
+}
+
+.sec51booking {
+  position: absolute;
+  left: 5.56%;
+  right: 5.56%;
+  top: 15.84%;
+  bottom: 68.51%;
+  background: #ffffff;
+  border: 0.7px solid #5b6460;
+  box-sizing: border-box;
+}
+
+.p10booking51 {
+  position: absolute;
+  width: 60.88px;
+  height: 16px;
+  left: 0px;
+  top: calc(50% - 16px / 2 - 11.28px);
+  font-family: "Roboto";
+  font-style: bolder;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+
+.p11booking51 {
+  position: absolute;
+  width: 67px;
+  height: 18px;
+  left: 0px;
+  top: calc(40% - 18px / 2 + 8.72px);
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  color: #333333;
+}
