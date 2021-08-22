@@ -56,3 +56,220 @@
   font-weight: normal;
   padding-bottom: 5px;
 }
+
+.h4booking {
+  position: absolute;
+  width: 109px;
+  height: 20px;
+  left: 78px;
+  top: 74%;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #333333;
+}
+
+.p3booking {
+  position: absolute;
+  width: 398px;
+  height: 20px;
+  left: 78px;
+  top: 80%;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 12px;
+  line-height: 20px;
+  color: #333333;
+}
+
+.p4booking {
+  position: absolute;
+  width: 302px;
+  height: 24px;
+  left: 80px;
+  top: 90%;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 24px;
+  color: #5b6460;
+  border-bottom: 0.7px solid #5b6460;
+  font-weight: normal;
+  padding-bottom: 5px;
+}
+
+.p5booking {
+  position: absolute;
+  width: 270px;
+  height: 162px;
+  left: 80px;
+  top: 100%;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 18px;
+  color: #333333;
+}
+
+.p7booking {
+  position: absolute;
+  width: 657.15px;
+  height: 84px;
+  left: 80px;
+  top: 700px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 28px;
+  color: #333333;
+}
+
+.p6booking {
+  position: absolute;
+  width: 302px;
+  height: 24px;
+  left: 80px;
+  top: 650px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 24px;
+  color: #5b6460;
+  border-bottom: 0.7px solid #5b6460;
+  font-weight: normal;
+  padding-bottom: 5px;
+}
+
+.p8booking {
+  position: absolute;
+  width: 302px;
+  height: 24px;
+  left: 80px;
+  top: 790px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 24px;
+  color: #5b6460;
+  border-bottom: 0.7px solid #5b6460;
+  font-weight: normal;
+  padding-bottom: 5px;
+}
+
+.p9booking {
+  position: absolute;
+  width: 657.15px;
+  height: 84px;
+  left: 80px;
+  top: 840px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 28px;
+  color: #333333;
+}
+
+.faqbooking {
+  position: absolute;
+  width: 180px;
+  height: 55px;
+  left: 404px;
+  top: 970px;
+  background: #5b6460;
+  color: aliceblue;
+  font-family: "Roboto", sans-serif;
+}
+
+footer {
+  position: absolute;
+  width: 1012px;
+  height: 300px;
+  left: 0px;
+  top: 1100px;
+  background: #5b6460;
+}
+
+.footerspb {
+  position: absolute;
+  width: 162px;
+  height: 24px;
+  left: 470px;
+  top: 20px;
+  font-family: "Roboto", sans-serif;
+  font-style: sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.footerspb2 {
+  position: absolute;
+  width: 162px;
+  height: 24px;
+  left: 660px;
+  top: 20px;
+  font-family: "Roboto", sans-serif;
+  font-style: sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.footerspb3 {
+  position: absolute;
+  width: 162px;
+  height: 24px;
+  left: 840px;
+  top: 20px;
+  font-family: "Roboto", sans-serif;
+  font-style: sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.paypalbook {
+  position: absolute;
+  left: 650px;
+  top: 80px;
+}
+
+.mastercardbook {
+  position: absolute;
+  left: 720px;
+  top: 80px;
+}
+
+.visabook {
+  position: absolute;
+  left: 780px;
+  top: 80px;
+}
+
+.banktransferbook {
+  position: absolute;
+  left: 840px;
+  top: 80px;
+}
+
+.contentbook {
+  position: absolute;
+  left: 70px;
+  top: 230px;
+  color: white;
+}
