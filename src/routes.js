@@ -42,5 +42,12 @@ export default [
     component: lazy(() => {
       return import("./pages/Faq/Faq");
     }),
+  },
+  {
+    path: "/payment",
+    exact: true,
+    component: lazy(() => {
+      return import("./pages/Payment/Payment");
+    }),
   }
 ]

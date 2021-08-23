@@ -60,6 +60,11 @@ function Navigation() {
                   FAQ
                 </Link>
               </Nav.Link>
+              <Nav.Link>
+                <Link to="/payment">
+                  PAYMENT
+                </Link>
+              </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

@@ -1,0 +1,11 @@
+.i1payment {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+i {
+  border: solid rgba(91, 100, 96, 1);
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
