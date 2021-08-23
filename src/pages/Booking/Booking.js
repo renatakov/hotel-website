@@ -6,6 +6,36 @@ import mastercard from "../images/mastercard.svg";
 import visa from "../images/visa.svg";
 
 class Booking extends Component {
+//   const decreaseBtn = document.querySelector("button__decrease");
+// const increaseBtn = document.querySelector("button__increase");
+// const counter = document.querySelector("counter");
+// let count = 1;
+
+// decreaseBtn.addEventListener("click", () => {
+//   if (count >= 2) {
+//     count--;
+//     counter.innerHTML = count;
+//     counterStyle();
+//   }
+// });
+
+// increaseBtn.addEventListener("click", () => {
+//   count++;
+//   counter.innerHTML = count;
+//   counterStyle();
+// });
+
+// function counterStyle() {
+//   if (count < 1) {
+//     counter.classList.add("negative");
+//   } else if (count > 1) {
+//     counter.classList.add("positive");
+//   } else {
+//     counter.classList.remove("negative");
+//     counter.classList.remove("positive");
+//   }
+// }
+
   render() {
     return (
       <>
@@ -59,21 +89,21 @@ class Booking extends Component {
             alt="Paypal"
             width="50px"
             height="50px"
-          />
+            />
           <img
             src={mastercard}
             className={css.mastercardbook}
             alt="Mastercard"
             width="50px"
             height="50px"
-          />
+            />
           <img
             src={visa}
             className={css.visabook}
             alt="visa"
             width="50px"
             height="50px"
-          />
+            />
           <img
             src="https://shop.sembenini.it/img/cms/bank-transfer-logo-on-black.png"
             className={css.banktransferbook}
@@ -88,8 +118,17 @@ class Booking extends Component {
             3.200kr <em> /night </em>
           </h3>
           <div className={css.sec51booking}>
-          <p className={css.p10booking51}>Check in</p>
-          <p className={css.p11booking51}>4/29/2021</p>
+            <p className={css.p10booking51}>Check in</p>
+            <p className={css.p11booking51}>4/29/2021</p>
+            <i className={css.i1booking51}></i>
+            <p className={css.p12booking51}>Check out</p>
+            <p className={css.p13booking51}>4/30/2021</p>
+            <i className={css.i2booking51}></i>
+            <div className={css.counter}>
+              <button className={css.button__decrease}>-</button>
+              <p className={css.counter}>1</p>
+              <button className={css.button__increase}>+</button>
+            </div>
           </div>
         </section>
       </>

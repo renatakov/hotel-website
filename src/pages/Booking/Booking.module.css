@@ -334,3 +334,67 @@ em {
   align-items: center;
   color: #333333;
 }
+
+.i1booking51{
+  position: absolute;
+  width: 37.51px;
+  height: 0px;
+  left: 60px;
+  top: 25.2px;
+
+  /* green */
+
+  border-top: 0.7px solid #5B6460;
+  transform: rotate(90deg);
+}
+
+.p12booking51 {
+  position: absolute;
+  width: 60.88px;
+  height: 16px;
+  left: 90px;
+  top: calc(50% - 16px / 2 - 11.28px);
+  font-family: "Roboto";
+  font-style: bolder;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+
+.p13booking51 {
+  position: absolute;
+  width: 67px;
+  height: 18px;
+  left: 90px;
+  top: calc(40% - 18px / 2 + 8.72px);
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  color: #333333;
+}
+
+.i2booking51{
+  position: absolute;
+  width: 37.51px;
+  height: 0px;
+  left: 140px;
+  top: 25.2px;
+
+  /* green */
+
+  border-top: 0.7px solid #5B6460;
+  transform: rotate(90deg);
+}
+
+.counter{
+  top: 1000px;
+  left:100%;
+  width:1px;
+}
