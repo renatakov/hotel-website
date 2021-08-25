@@ -19,6 +19,8 @@ class Booking extends Component {
 //   }
 // });
 
+
+
 // increaseBtn.addEventListener("click", () => {
 //   count++;
 //   counter.innerHTML = count;
@@ -125,8 +127,9 @@ class Booking extends Component {
             <p className={css.p13booking51}>4/30/2021</p>
             <i className={css.i2booking51}></i>
             <div className={css.counter}>
+              <p className={css.p14booking51}>Guests</p>
               <button className={css.button__decrease}>-</button>
-              <p className={css.counter}>1</p>
+              <p className={css.counter1}>1</p>
               <button className={css.button__increase}>+</button>
             </div>
           </div>
