@@ -6,37 +6,35 @@ import mastercard from "../images/mastercard.svg";
 import visa from "../images/visa.svg";
 
 class Booking extends Component {
-//   const decreaseBtn = document.querySelector("button__decrease");
-// const increaseBtn = document.querySelector("button__increase");
-// const counter = document.querySelector("counter");
-// let count = 1;
+  //   const decreaseBtn = document.querySelector("button__decrease");
+  // const increaseBtn = document.querySelector("button__increase");
+  // const counter = document.querySelector("counter");
+  // let count = 1;
 
-// decreaseBtn.addEventListener("click", () => {
-//   if (count >= 2) {
-//     count--;
-//     counter.innerHTML = count;
-//     counterStyle();
-//   }
-// });
+  // decreaseBtn.addEventListener("click", () => {
+  //   if (count >= 2) {
+  //     count--;
+  //     counter.innerHTML = count;
+  //     counterStyle();
+  //   }
+  // });
 
+  // increaseBtn.addEventListener("click", () => {
+  //   count++;
+  //   counter.innerHTML = count;
+  //   counterStyle();
+  // });
 
-
-// increaseBtn.addEventListener("click", () => {
-//   count++;
-//   counter.innerHTML = count;
-//   counterStyle();
-// });
-
-// function counterStyle() {
-//   if (count < 1) {
-//     counter.classList.add("negative");
-//   } else if (count > 1) {
-//     counter.classList.add("positive");
-//   } else {
-//     counter.classList.remove("negative");
-//     counter.classList.remove("positive");
-//   }
-// }
+  // function counterStyle() {
+  //   if (count < 1) {
+  //     counter.classList.add("negative");
+  //   } else if (count > 1) {
+  //     counter.classList.add("positive");
+  //   } else {
+  //     counter.classList.remove("negative");
+  //     counter.classList.remove("positive");
+  //   }
+  // }
 
   render() {
     return (
@@ -91,21 +89,21 @@ class Booking extends Component {
             alt="Paypal"
             width="50px"
             height="50px"
-            />
+          />
           <img
             src={mastercard}
             className={css.mastercardbook}
             alt="Mastercard"
             width="50px"
             height="50px"
-            />
+          />
           <img
             src={visa}
             className={css.visabook}
             alt="visa"
             width="50px"
             height="50px"
-            />
+          />
           <img
             src="https://shop.sembenini.it/img/cms/bank-transfer-logo-on-black.png"
             className={css.banktransferbook}
@@ -133,6 +131,9 @@ class Booking extends Component {
               <button className={css.button__increase}>+</button>
             </div>
           </div>
+          <NavLink to="/payment">
+            <button className={css.bookpay}>book</button>
+          </NavLink>
         </section>
       </>
     );

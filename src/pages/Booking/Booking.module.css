@@ -450,3 +450,23 @@ em {
   align-items: center;
   color: #333333;
 }
+
+.bookpay {
+  position: absolute;
+  width: 220px;
+  height: 60px;
+  left: calc(83% - 384px / 2);
+  top: calc(70% - 60px / 2 - 84.68px);
+  background: #5b6460;
+  border: 1px solid #5b6460;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
