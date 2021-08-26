@@ -1,11 +1,141 @@
-.i1payment {
-  transform: rotate(135deg);
-  -webkit-transform: rotate(135deg);
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+
+.p1payment {
+  position: absolute;
+  width: 117px;
+  height: 36px;
+  left: 40px;
+  top: 100px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 36px;
+  color: #333333;
 }
 
-i {
-  border: solid rgba(91, 100, 96, 1);
-  border-width: 0 3px 3px 0;
-  display: inline-block;
-  padding: 3px;
+.p2payment {
+  position: absolute;
+  width: 238px;
+  height: 24px;
+  left: 40px;
+  top: 160px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 24px;
+  color: #5b6460;
+  border-bottom: 0.7px solid #5b6460;
+}
+
+input:focus {
+  position: absolute;
+  font-size: 7px;
+  font-display: 10px;
+  font-family: "Roboto", sans-serif;
+}
+
+#firstnamepay {
+  position: absolute;
+  width: 218px;
+  height: 40px;
+  left: 40px;
+  top: 232px;
+  border: 0.7px solid #5b6460;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-style: bold;
+  align-items: center;
+}
+
+#lastnamepay {
+  position: absolute;
+  width: 218px;
+  height: 40px;
+  left: 290px;
+  top: 232px;
+  border: 0.7px solid #5b6460;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-style: bold;
+  align-items: center;
+}
+
+#emailpay {
+  position: absolute;
+  width: 218px;
+  height: 40px;
+  left: 40px;
+  top: 302px;
+  border: 0.7px solid #5b6460;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-style: bold;
+  align-items: center;
+}
+
+#phonepay {
+  position: absolute;
+  width: 218px;
+  height: 40px;
+  left: 290px;
+  top: 302px;
+  border: 0.7px solid #5b6460;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-style: bold;
+  align-items: center;
+}
+
+#addresspay {
+  position: absolute;
+  width: 218px;
+  height: 40px;
+  left: 40px;
+  top: 372px;
+  border: 0.7px solid #5b6460;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-style: bold;
+  align-items: center;
+}
+
+#postalcodepay {
+  position: absolute;
+  width: 218px;
+  height: 40px;
+  left: 290px;
+  top: 372px;
+  border: 0.7px solid #5b6460;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-style: bold;
+  align-items: center;
+}
+
+#citypay{
+  position: absolute;
+  width: 218px;
+  height: 40px;
+  left: 40px;
+  top: 442px;
+  border: 0.7px solid #5b6460;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-style: bold;
+  align-items: center;
+}
+
+#countrypay {
+  position: absolute;
+  width: 218px;
+  height: 40px;
+  left: 290px;
+  top: 442px;
+  border: 0.7px solid #5b6460;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-style: bold;
+  align-items: center;
 }
