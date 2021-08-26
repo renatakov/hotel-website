@@ -1,16 +1,20 @@
-import React, {Component} from "react";
+import React, { Component } from "react";
 import stylecss from "./Payment.module.css";
 
-class Payment extends Component{
+class Payment extends Component {
   render() {
-    return(
+    return (
       <>
-      <section className={stylecss.s1payment}>
-      <p className={stylecss.p1payment}><i className={stylecss.i1payment}></i> CONFIRM & PAY</p>
-      </section>
+        <section className={stylecss.s1payment}>
+          <p className={stylecss.p1payment}>&#8592; CONFIRM & PAY</p>
+        </section>
       </>
-    )
+    );
   }
 }
 
 export default Payment;
+{
+  /* <i className={stylecss.i1payment}>
+</i> */
+}
