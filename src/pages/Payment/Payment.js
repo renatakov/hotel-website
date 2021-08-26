@@ -14,7 +14,3 @@ class Payment extends Component {
 }
 
 export default Payment;
-{
-  /* <i className={stylecss.i1payment}>
-</i> */
-}
