@@ -134,6 +134,10 @@ class Booking extends Component {
           <NavLink to="/payment">
             <button className={css.bookpay}>book</button>
           </NavLink>
+          <p className={css.p15booking51}>3.200kr x 2 nights</p>
+          <p className={css.p16booking51}>Classic Dinner for one</p>
+          <p className={css.p17booking51}>Electric Car Charge</p>
+          <p className={css.p18booking51}>10% discount</p>
         </section>
       </>
     );
