@@ -530,5 +530,150 @@ em {
   line-height: 18px;
   display: flex;
   align-items: center;
-  color: #41916D;
+  color: #41916d;
+}
+
+.p19booking51 {
+  position: absolute;
+  width: 60px;
+  height: 18.76px;
+  left: 180px;
+  top: calc(51.55% - 18.76px / 2 - 15.62px);
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+}
+
+.p20booking51 {
+  position: absolute;
+  width: 60px;
+  height: 18.76px;
+  left: 192px;
+  top: calc(57.55% - 18.76px / 2 - 15.62px);
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+}
+
+.p21booking51 {
+  position: absolute;
+  width: 60px;
+  height: 18.76px;
+  left: 192px;
+  top: calc(64.55% - 18.76px / 2 - 15.62px);
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+}
+
+.p22booking51 {
+  position: absolute;
+  width: 56px;
+  height: 18.76px;
+  left: 187px;
+  top: calc(49% - 18.76px / 2 + 103.17px);
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  color: #41916d;
+}
+
+.div1booking51 {
+  position: absolute;
+  width: 220px;
+  height: 0px;
+  left: 15px;
+  top: 432.56px;
+  border-bottom: 1px solid #5b6460;
+  transform: matrix(90deg);
+}
+
+.h33booking51 {
+  position: absolute;
+  width: 49px;
+  height: 18.76px;
+  left: 14px;
+  top: calc(50% - 18.76px / 2 + 171.95px);
+  font-family: "Roboto", sans-serif;
+  font-style: bold;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  color: #333333;
+}
+
+.p23booking51 {
+  position: absolute;
+  width: 72px;
+  height: 18.76px;
+  left: 170px;
+  top: calc(50% - 18.76px / 2 + 171.95px);
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  color: #333333;
+}
+
+#inputbooking51 {
+  position: absolute;
+  width: 180.7px;
+  height: 43px;
+  left: 30px;
+  top: 486px;
+  border: 0.7px solid #5b6460;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  color: #828282;
+}
+
+#send51 {
+  position: absolute;
+  width: 50.33px;
+  height: 43px;
+  left: calc(43.4% - 101.33px / 2 + 141.33px);
+  top: calc(50% - 50px / 2 + 246px);
+  background: #5b6460;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0px;
+  text-transform: uppercase;
+  color: #ffffff;
+  border: none;
 }

@@ -138,6 +138,15 @@ class Booking extends Component {
           <p className={css.p16booking51}>Classic Dinner for one</p>
           <p className={css.p17booking51}>Electric Car Charge</p>
           <p className={css.p18booking51}>10% discount</p>
+          <p className={css.p19booking51}> 6.400kr</p>
+          <p className={css.p20booking51}>600kr</p>
+          <p className={css.p21booking51}>800kr</p>
+          <p className={css.p22booking51}>-200kr</p>
+          <div className={css.div1booking51}></div>
+          <h3 className={css.h33booking51}>Total</h3>
+          <p className={css.p23booking51}>7.000kr</p>
+          <input id={css.inputbooking51} type="text" value="Coupon Code"/>
+          <input id={css.send51} type="submit" value="APPLY" />
         </section>
       </>
     );
