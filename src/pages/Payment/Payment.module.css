@@ -114,7 +114,7 @@ input:focus {
   align-items: center;
 }
 
-#citypay{
+#citypay {
   position: absolute;
   width: 218px;
   height: 40px;
@@ -138,4 +138,212 @@ input:focus {
   font-family: "Roboto", sans-serif;
   font-style: bold;
   align-items: center;
+}
+
+footer {
+  position: absolute;
+  width: 2112px;
+  height: 270px;
+  left: 0px;
+  top: 940px;
+  background: #5b6460;
+}
+
+.footersp {
+  position: absolute;
+  width: 162px;
+  height: 24px;
+  left: 470px;
+  top: 20px;
+  font-family: "Roboto", sans-serif;
+  font-style: sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.footersp2 {
+  position: absolute;
+  width: 162px;
+  height: 24px;
+  left: 660px;
+  top: 20px;
+  font-family: "Roboto", sans-serif;
+  font-style: sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.footersp3 {
+  position: absolute;
+  width: 162px;
+  height: 24px;
+  left: 840px;
+  top: 20px;
+  font-family: "Roboto", sans-serif;
+  font-style: sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.paypal {
+  position: absolute;
+  left: 650px;
+  top: 80px;
+}
+
+.mastercard {
+  position: absolute;
+  left: 720px;
+  top: 80px;
+}
+
+.visa {
+  position: absolute;
+  left: 780px;
+  top: 80px;
+}
+
+.banktransfer {
+  position: absolute;
+  left: 840px;
+  top: 80px;
+}
+
+.content {
+  position: absolute;
+  left: 70px;
+  top: 230px;
+  color: white;
+}
+
+#creditcardpay {
+  position: absolute;
+  width: 350px;
+  left: 40px;
+  top: calc(130% - 18px / 2 - 74px);
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  color: #828282;
+  height: 40px;
+  border: 0.7px solid #5b6460;
+  box-sizing: border-box;
+}
+
+.p3payment {
+  position: absolute;
+  width: 238px;
+  height: 24px;
+  left: 40px;
+  top: 510px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 24px;
+  color: #5b6460;
+  border-bottom: 0.7px solid #5b6460;
+}
+
+#cardnumber {
+  position: absolute;
+  width: 350px;
+  left: 40px;
+  top: calc(140% - 18px / 2 - 74px);
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  color: #828282;
+  height: 40px;
+  border: 0.7px solid #5b6460;
+  box-sizing: border-box;
+}
+
+#expiration {
+  position: absolute;
+  width: 190px;
+  left: 40px;
+  top: calc(150% - 18px / 2 - 74px);
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  color: #828282;
+  height: 40px;
+  border: 0.7px solid #5b6460;
+  box-sizing: border-box;
+}
+
+#ccv{
+  position: absolute;
+  width: 190px;
+  left: 228px;
+  top: calc(150% - 18px / 2 - 74px);
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  color: #828282;
+  height: 40px;
+  border: 0.7px solid #5b6460;
+  box-sizing: border-box;
+}
+
+#zipcode{
+  position: absolute;
+  width: 190px;
+  left: 40px;
+  top: calc(160% - 18px / 2 - 74px);
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  color: #828282;
+  height: 40px;
+  border: 0.7px solid #5b6460;
+  box-sizing: border-box;
+}
+
+#countrypay1 {
+  position: absolute;
+  width: 190px;
+  left: 240px;
+  top: calc(160% - 18px / 2 - 74px);
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  color: #828282;
+  height: 40px;
+  border: 0.7px solid #5b6460;
+  box-sizing: border-box;
 }
