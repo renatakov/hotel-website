@@ -294,7 +294,7 @@ footer {
   box-sizing: border-box;
 }
 
-#ccv{
+#ccv {
   position: absolute;
   width: 190px;
   left: 228px;
@@ -312,7 +312,7 @@ footer {
   box-sizing: border-box;
 }
 
-#zipcode{
+#zipcode {
   position: absolute;
   width: 190px;
   left: 40px;
@@ -346,4 +346,80 @@ footer {
   height: 40px;
   border: 0.7px solid #5b6460;
   box-sizing: border-box;
+}
+
+#txtarea1 {
+  position: absolute;
+  width: 360px;
+  height: 80px;
+  left: 40px;
+  top: calc(180% - 18px / 2 - 74px);
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+
+  border: 0.7px solid #5b6460;
+  box-sizing: border-box;
+}
+
+.p4payment {
+  position: absolute;
+  width: 360px;
+  height: 80px;
+  left: 40px;
+  top: calc(170% - 18px / 2 - 74px);
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 24px;
+  color: #5b6460;
+}
+
+.p5payment {
+  position: absolute;
+  width: 290px;
+  height: 8px;
+  left: 90px;
+  top: calc(193% - 18px / 2 - 74px);
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  color: #333333;
+}
+
+strong {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 28px;
+  text-decoration-line: underline;
+  color: #5b6460;
+}
+
+#check1payment {
+  position: absolute;
+  top: calc(200% - 18px / 2 - 74px);
+  left: 60px;
+  background: #5b6460;
+  border-radius: 40%;
+}
+
+#inpsubpay {
+  position: absolute;
+  width: 184px;
+  height: 60px;
+  background: #5b6460;
+  /* green */
+  top: calc(194% - 18px / 2 - 74px);
+  left: 460px;
+
+  border: 1px solid #5b6460;
+  box-sizing: border-box;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
 }

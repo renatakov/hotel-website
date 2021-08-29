@@ -4,7 +4,6 @@ import { NavLink } from "react-router-dom";
 import paypal from "../images/paypal.svg";
 import mastercard from "../images/mastercard.svg";
 import visa from "../images/visa.svg";
-import card from "../images/credit-card-solid.svg";
 
 class Payment extends Component {
   render() {
@@ -50,6 +49,13 @@ class Payment extends Component {
           <input id={stylecss.ccv} type="text" placeholder="CCV" />
           <input id={stylecss.zipcode} type="text" placeholder="Zip Code" />
           <input id={stylecss.countrypay1} type="text" placeholder="Country" />
+        </section>
+        <section className={stylecss.s4payment}>
+        <p className={stylecss.p4payment}>Additional information</p>
+        <input type="text" placeholder="Leave a message" id={stylecss.txtarea1}/>
+        <input type="checkbox" id={stylecss.check1payment}/>
+        <p className={stylecss.p5payment}>I have read and accept<strong>Terms & Conditions</strong></p>
+        <input type="submit" id={stylecss.inpsubpay} value="CONFIRM & PAY"/>
         </section>
         <footer>
           <p className={stylecss.footersp}>TERMS AND CONDITIONS</p>
